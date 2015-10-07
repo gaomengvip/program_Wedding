@@ -1,5 +1,5 @@
 //
-//  ViewController7.h
+//  BannerCell.h
 //  Wedding
 //
 //  Created by lanou3g on 15/10/7.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController7 : UIViewController
+@interface BannerCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *picture;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController5.h
+//  headerView4HomePage.h
 //  Wedding
 //
 //  Created by lanou3g on 15/10/7.
@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CarouselFingure.h"
 
-@interface ViewController5 : UIViewController
+@interface headerView4homePage : UIView
+
 
 @end
