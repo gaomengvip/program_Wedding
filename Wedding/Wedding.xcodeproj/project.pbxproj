@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2329845FFAB6D210F012D62E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCFDA029E7A565241DF361 /* libPods.a */; };
 		C2F56D911BC4BC7300FB0A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56D901BC4BC7300FB0A9B /* main.m */; };
 		C2F56D961BC4BC7300FB0A9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D951BC4BC7300FB0A9B /* Images.xcassets */; };
 		C2F56D991BC4BC7300FB0A9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D971BC4BC7300FB0A9B /* LaunchScreen.xib */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		768FCE94DE073BDDEFD607F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C2F56D8B1BC4BC7300FB0A9B /* Wedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F56D8F1BC4BC7300FB0A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F56D901BC4BC7300FB0A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +66,8 @@
 		C2F56DDE1BC4C4D900FB0A9B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		C2F56DE01BC4CB3E00FB0A9B /* URLs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLs.h; sourceTree = "<group>"; };
 		C2F56DE11BC4CBB700FB0A9B /* CenturyWedding.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenturyWedding.pch; sourceTree = "<group>"; };
+		D5FCFDA029E7A565241DF361 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD207AD06B0D84923964B00B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2329845FFAB6D210F012D62E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +89,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		877DA85D7F622C3E5C63787C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD207AD06B0D84923964B00B /* Pods.debug.xcconfig */,
+				768FCE94DE073BDDEFD607F2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DBE49851C5E7AA398E79576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FCFDA029E7A565241DF361 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2F56D821BC4BC7300FB0A9B = {
 			isa = PBXGroup;
 			children = (
 				C2F56D8D1BC4BC7300FB0A9B /* Wedding */,
 				C2F56DA11BC4BC7300FB0A9B /* WeddingTests */,
 				C2F56D8C1BC4BC7300FB0A9B /* Products */,
+				877DA85D7F622C3E5C63787C /* Pods */,
+				8DBE49851C5E7AA398E79576 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,9 +303,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2F56DA81BC4BC7300FB0A9B /* Build configuration list for PBXNativeTarget "Wedding" */;
 			buildPhases = (
+				99B77DFE8D2F1ED6B42D88F7 /* Check Pods Manifest.lock */,
 				C2F56D871BC4BC7300FB0A9B /* Sources */,
 				C2F56D881BC4BC7300FB0A9B /* Frameworks */,
 				C2F56D891BC4BC7300FB0A9B /* Resources */,
+				BBB25ABAEDD950B39FFB07ED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -365,6 +391,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99B77DFE8D2F1ED6B42D88F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB25ABAEDD950B39FFB07ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2F56D871BC4BC7300FB0A9B /* Sources */ = {
@@ -499,6 +558,7 @@
 		};
 		C2F56DA91BC4BC7300FB0A9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD207AD06B0D84923964B00B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
@@ -510,6 +570,7 @@
 		};
 		C2F56DAA1BC4BC7300FB0A9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768FCE94DE073BDDEFD607F2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
@@ -572,6 +633,7 @@
 				C2F56DAA1BC4BC7300FB0A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F56DAB1BC4BC7300FB0A9B /* Build configuration list for PBXNativeTarget "WeddingTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +642,7 @@
 				C2F56DAD1BC4BC7300FB0A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
