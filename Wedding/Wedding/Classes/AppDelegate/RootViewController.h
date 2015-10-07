@@ -1,5 +1,5 @@
 //
-//  ViewController4.h
+//  RootViewController.h
 //  Wedding
 //
 //  Created by lanou3g on 15/10/7.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController4 : UIViewController
+@interface RootViewController : UITabBarController
 
 @end
