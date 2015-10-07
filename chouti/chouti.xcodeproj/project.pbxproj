@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F56DF41BC509DD00FB0A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56DF31BC509DD00FB0A9B /* main.m */; };
+		C2F56DF71BC509DD00FB0A9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56DF61BC509DD00FB0A9B /* AppDelegate.m */; };
+		C2F56DF91BC509DD00FB0A9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F56DF81BC509DD00FB0A9B /* Images.xcassets */; };
+		C2F56DFC1BC509DD00FB0A9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F56DFA1BC509DD00FB0A9B /* LaunchScreen.xib */; };
+		C2F56E081BC509DD00FB0A9B /* choutiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56E071BC509DD00FB0A9B /* choutiTests.m */; };
+		C2F56E131BC50D5B00FB0A9B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56E121BC50D5B00FB0A9B /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F56E021BC509DD00FB0A9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F56DE61BC509DD00FB0A9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F56DED1BC509DD00FB0A9B;
+			remoteInfo = chouti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2F56DEE1BC509DD00FB0A9B /* chouti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chouti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F56DF21BC509DD00FB0A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F56DF31BC509DD00FB0A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2F56DF51BC509DD00FB0A9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2F56DF61BC509DD00FB0A9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; wrapsLines = 0; };
+		C2F56DF81BC509DD00FB0A9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2F56DFB1BC509DD00FB0A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C2F56E011BC509DD00FB0A9B /* choutiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = choutiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F56E061BC509DD00FB0A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F56E071BC509DD00FB0A9B /* choutiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = choutiTests.m; sourceTree = "<group>"; };
+		C2F56E111BC50D5B00FB0A9B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C2F56E121BC50D5B00FB0A9B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F56DEB1BC509DD00FB0A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F56DFE1BC509DD00FB0A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F56DE51BC509DD00FB0A9B = {
+			isa = PBXGroup;
+			children = (
+				C2F56DF01BC509DD00FB0A9B /* chouti */,
+				C2F56E041BC509DD00FB0A9B /* choutiTests */,
+				C2F56DEF1BC509DD00FB0A9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F56DEF1BC509DD00FB0A9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F56DEE1BC509DD00FB0A9B /* chouti.app */,
+				C2F56E011BC509DD00FB0A9B /* choutiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F56DF01BC509DD00FB0A9B /* chouti */ = {
+			isa = PBXGroup;
+			children = (
+				C2F56DF51BC509DD00FB0A9B /* AppDelegate.h */,
+				C2F56DF61BC509DD00FB0A9B /* AppDelegate.m */,
+				C2F56E111BC50D5B00FB0A9B /* RootViewController.h */,
+				C2F56E121BC50D5B00FB0A9B /* RootViewController.m */,
+				C2F56DF81BC509DD00FB0A9B /* Images.xcassets */,
+				C2F56DFA1BC509DD00FB0A9B /* LaunchScreen.xib */,
+				C2F56DF11BC509DD00FB0A9B /* Supporting Files */,
+			);
+			path = chouti;
+			sourceTree = "<group>";
+		};
+		C2F56DF11BC509DD00FB0A9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2F56DF21BC509DD00FB0A9B /* Info.plist */,
+				C2F56DF31BC509DD00FB0A9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2F56E041BC509DD00FB0A9B /* choutiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F56E071BC509DD00FB0A9B /* choutiTests.m */,
+				C2F56E051BC509DD00FB0A9B /* Supporting Files */,
+			);
+			path = choutiTests;
+			sourceTree = "<group>";
+		};
+		C2F56E051BC509DD00FB0A9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2F56E061BC509DD00FB0A9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F56DED1BC509DD00FB0A9B /* chouti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F56E0B1BC509DD00FB0A9B /* Build configuration list for PBXNativeTarget "chouti" */;
+			buildPhases = (
+				C2F56DEA1BC509DD00FB0A9B /* Sources */,
+				C2F56DEB1BC509DD00FB0A9B /* Frameworks */,
+				C2F56DEC1BC509DD00FB0A9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chouti;
+			productName = chouti;
+			productReference = C2F56DEE1BC509DD00FB0A9B /* chouti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F56E001BC509DD00FB0A9B /* choutiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F56E0E1BC509DD00FB0A9B /* Build configuration list for PBXNativeTarget "choutiTests" */;
+			buildPhases = (
+				C2F56DFD1BC509DD00FB0A9B /* Sources */,
+				C2F56DFE1BC509DD00FB0A9B /* Frameworks */,
+				C2F56DFF1BC509DD00FB0A9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F56E031BC509DD00FB0A9B /* PBXTargetDependency */,
+			);
+			name = choutiTests;
+			productName = choutiTests;
+			productReference = C2F56E011BC509DD00FB0A9B /* choutiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F56DE61BC509DD00FB0A9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "蓝鸥科技";
+				TargetAttributes = {
+					C2F56DED1BC509DD00FB0A9B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C2F56E001BC509DD00FB0A9B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C2F56DED1BC509DD00FB0A9B;
+					};
+				};
+			};
+			buildConfigurationList = C2F56DE91BC509DD00FB0A9B /* Build configuration list for PBXProject "chouti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F56DE51BC509DD00FB0A9B;
+			productRefGroup = C2F56DEF1BC509DD00FB0A9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F56DED1BC509DD00FB0A9B /* chouti */,
+				C2F56E001BC509DD00FB0A9B /* choutiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F56DEC1BC509DD00FB0A9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F56DFC1BC509DD00FB0A9B /* LaunchScreen.xib in Resources */,
+				C2F56DF91BC509DD00FB0A9B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F56DFF1BC509DD00FB0A9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F56DEA1BC509DD00FB0A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F56DF71BC509DD00FB0A9B /* AppDelegate.m in Sources */,
+				C2F56DF41BC509DD00FB0A9B /* main.m in Sources */,
+				C2F56E131BC50D5B00FB0A9B /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F56DFD1BC509DD00FB0A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F56E081BC509DD00FB0A9B /* choutiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F56E031BC509DD00FB0A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F56DED1BC509DD00FB0A9B /* chouti */;
+			targetProxy = C2F56E021BC509DD00FB0A9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F56DFA1BC509DD00FB0A9B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F56DFB1BC509DD00FB0A9B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F56E091BC509DD00FB0A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F56E0A1BC509DD00FB0A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F56E0C1BC509DD00FB0A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chouti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2F56E0D1BC509DD00FB0A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chouti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2F56E0F1BC509DD00FB0A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = choutiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chouti.app/chouti";
+			};
+			name = Debug;
+		};
+		C2F56E101BC509DD00FB0A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = choutiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chouti.app/chouti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F56DE91BC509DD00FB0A9B /* Build configuration list for PBXProject "chouti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F56E091BC509DD00FB0A9B /* Debug */,
+				C2F56E0A1BC509DD00FB0A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F56E0B1BC509DD00FB0A9B /* Build configuration list for PBXNativeTarget "chouti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F56E0C1BC509DD00FB0A9B /* Debug */,
+				C2F56E0D1BC509DD00FB0A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2F56E0E1BC509DD00FB0A9B /* Build configuration list for PBXNativeTarget "choutiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F56E0F1BC509DD00FB0A9B /* Debug */,
+				C2F56E101BC509DD00FB0A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F56DE61BC509DD00FB0A9B /* Project object */;
+}
