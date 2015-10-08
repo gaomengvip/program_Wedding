@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "HomePageController.h"
+#import "ShwanClassificationController.h"
+#import "LYCBrideSayController.h"
 
 @interface AppDelegate ()
 
@@ -28,6 +30,26 @@
     
     
     
+    
+    UINavigationController *homePaheVC = [[UINavigationController alloc]initWithRootViewController:[HomePageController new]];
+    
+    UINavigationController *secondVC = [[UINavigationController alloc]initWithRootViewController:[ShwanClassificationController new]];
+    
+    UINavigationController *thirdVC = [[UINavigationController alloc]initWithRootViewController:[LYCBrideSayController new]];
+    
+    NSArray *array = @[homePaheVC,secondVC,thirdVC];
+
+    UITabBarController *tabBarVC = [[UITabBarController alloc]init];
+    tabBarVC.viewControllers = array;
+    //    //背景图片
+    
+    tabBarVC.tabBar.backgroundImage = [UIImage imageNamed:@"tabBar"];
+    tabBarVC.selectedIndex = 0;
+    //字体颜色
+    tabBarVC.tabBar.tintColor = [UIColor blackColor];
+    
+    self.window.rootViewController = tabBarVC;
+
     
     
     self.window.backgroundColor = [UIColor whiteColor];
