@@ -10,13 +10,32 @@
 
 @interface ShwanClassificationController ()
 
+
+
+@property(nonatomic,strong)UISearchBar * searchBar;
+
+@property(nonatomic,strong)UILabel * searchLable;
+
 @end
 
 @implementation ShwanClassificationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
