@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class SHwanModle;
 @interface ShwanClassificationCell : UITableViewCell
+
+
+@property(nonatomic,strong)UILabel * titleLable;
+
+
+@property(nonatomic,strong)UILabel * descLable;
+
+
+@property(nonatomic,strong)UIImageView *iconImage;
+
+
+@property(nonatomic,strong)SHwanModle *modle;
+
+
 
 @end

@@ -10,4 +10,12 @@
 
 @interface SHwanModle : NSObject
 
+
+
+
+
+@property(nonatomic,strong)NSString * icon;
+@property(nonatomic,strong)NSString * title;
+@property(nonatomic,strong)NSString * desc;
+
 @end

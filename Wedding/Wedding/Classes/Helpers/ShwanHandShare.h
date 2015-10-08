@@ -9,5 +9,19 @@
 #import <Foundation/Foundation.h>
 
 @interface ShwanHandShare : NSObject
+@property(nonatomic,strong)NSMutableArray * array;
+
+@property(nonatomic,strong)NSString* number;
++(ShwanHandShare*)share;
+
+
+-(void)setWithNumber:(NSString*)number URL:(void(^)())blockURL;
+
+
+
+
+
+
+
 
 @end

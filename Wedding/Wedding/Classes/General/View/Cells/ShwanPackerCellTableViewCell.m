@@ -7,17 +7,69 @@
 //
 
 #import "ShwanPackerCellTableViewCell.h"
+#import "ShwanpackageModle.h"
+#import "UIImageView+WebCache.h"
 
 @implementation ShwanPackerCellTableViewCell
 
-- (void)awakeFromNib {
-    // Initialization code
+
+-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+
+
+    if (self=[super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        
+        [self DrawView];
+        
+    }
+
+
+
+    return self;
+
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
+-(void)setModle:(ShwanpackageModle *)modle{
 
-    // Configure the view for the selected state
+    self.titleLabel.text=modle.title;
+    
+    self.nameLabel.text=modle.name;
+    
+    self.collectors_countLabel.text=modle.collectors_count;
+    
+    [self.cover_pathImage sd_setImageWithURL:[NSURL  URLWithString:modle.cover_path]];
+
 }
+
+-(void)DrawView{
+
+
+
+    self.cover_pathImage=[[UIImageView alloc]initWithFrame:CGRectMake(10, 0, self.contentView.frame.size.width, 200)];
+    
+    
+    [self.contentView addSubview:_cover_pathImage];
+    
+    self.titleLabel=[[UILabel alloc]initWithFrame:CGRectMake(10, 205, 200, 30)];
+    
+    [self.contentView addSubview:_titleLabel];
+    
+    self.nameLabel=[[UILabel alloc]initWithFrame:CGRectMake(10, 240, 100, 30)];
+  
+    self.nameLabel.textColor=[UIColor grayColor];
+    [self.contentView addSubview:_nameLabel];
+
+     self.collectors_countLabel=[[UILabel alloc]initWithFrame:CGRectMake(290, 210, 100, 30)];
+    
+    UIImageView *img=[[UIImageView alloc]initWithFrame:CGRectMake(245, 205, 32, 32)];
+    img.image=[UIImage imageNamed:@"iconfont-starton-1"];
+    
+    [self.contentView addSubview:img];
+    
+    [self.contentView addSubview:_collectors_countLabel];
+
+
+}
+
+
 
 @end

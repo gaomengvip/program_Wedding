@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ShwanpackageModle;
 @interface ShwanPackerCellTableViewCell : UITableViewCell
+
+
+@property(nonatomic,strong)UILabel * titleLabel;
+@property(nonatomic,strong)UIImageView  *cover_pathImage;
+@property(nonatomic,strong)UILabel  *collectors_countLabel;
+@property(nonatomic,strong)UILabel  *nameLabel;
+
+@property(nonatomic,strong)ShwanpackageModle * modle;
+
+
 
 @end

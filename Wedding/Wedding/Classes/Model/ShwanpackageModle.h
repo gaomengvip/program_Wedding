@@ -10,4 +10,23 @@
 
 @interface ShwanpackageModle : NSObject
 
+
+
+@property(nonatomic,strong)NSString * title;
+@property(nonatomic,strong)NSString *cover_path;
+@property(nonatomic,strong)NSString *collectors_count;
+@property(nonatomic,strong)NSString *name;
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end
