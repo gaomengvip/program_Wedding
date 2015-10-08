@@ -20,6 +20,12 @@
 
 @implementation ShwanClassificationController
 
+
+
+
+-(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
    
