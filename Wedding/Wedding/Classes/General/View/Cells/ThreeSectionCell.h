@@ -1,5 +1,5 @@
 //
-//  ViewController9.h
+//  ThreeSectionCell.h
 //  Wedding
 //
 //  Created by lanou3g on 15/10/7.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController9 : UIViewController
+@interface ThreeSectionCell : UITableViewCell
 
 @end

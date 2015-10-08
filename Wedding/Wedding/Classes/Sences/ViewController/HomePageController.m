@@ -17,6 +17,7 @@
 
 @property(nonatomic,strong)UICollectionView *collectionView;
 @property(nonatomic,strong)UICollectionViewFlowLayout *flowLayout;
+@property(nonatomic,strong)UIScrollView *scrollView;
 
 
 @end
@@ -99,6 +100,31 @@
     }else if (indexPath.section == 2){
         ThreeSectionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"threeSectionCell" forIndexPath:indexPath];
         return cell;
+    }else if (indexPath.section == 3){
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+        _scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(10, 10, 375, 130)];
+        _scrollView.contentSize = CGSizeMake(2000, 130);
+        _scrollView.pagingEnabled = NO;
+        _scrollView.bounces = NO;
+        _scrollView.showsVerticalScrollIndicator = NO;
+        _scrollView.showsHorizontalScrollIndicator = NO;
+        
+        
+        
+        for (int i = 0 ;  i < 10; i ++){
+            UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(15 + ( 122* i ), 0, 100, 70)];
+            UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(15 + ( 122* i ), 110, 100, 20)];
+            imgView.backgroundColor = [UIColor magentaColor];
+            label.text = @"东";
+            label.font = [UIFont systemFontOfSize:10];
+            label.textAlignment = NSTextAlignmentCenter;
+            [self.scrollView addSubview:label];
+            [self.scrollView addSubview:imgView];
+            
+        }
+        self.scrollView.backgroundColor = [UIColor whiteColor];
+        [cell addSubview:self.scrollView];
+        return cell;
     }else{
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
         return cell;
@@ -116,6 +142,8 @@
         return 70;
     }else if (indexPath.section == 2){
         return 100;
+    }else if (indexPath.section == 3){
+        return 150;
     }
     else{
         return 40;
@@ -127,6 +155,9 @@
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
     if (section == 2) {
         NSString *string = @"超值套餐";
+        return string;
+    }if (section == 3) {
+        NSString *string = @"商家推荐";
         return string;
     }
     return nil;

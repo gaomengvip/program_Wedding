@@ -1,5 +1,5 @@
 //
-//  ViewController5.h
+//  HomePageController.h
 //  Wedding
 //
 //  Created by lanou3g on 15/10/7.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController5 : UIViewController
+@interface HomePageController : UITableViewController
 
 @end

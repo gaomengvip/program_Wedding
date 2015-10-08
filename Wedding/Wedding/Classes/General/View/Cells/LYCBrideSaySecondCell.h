@@ -1,5 +1,5 @@
 //
-//  ViewController2.h
+//  LYCBrideSaySecondCell.h
 //  Wedding
 //
 //  Created by lanou3g on 15/10/7.
@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController2 : UIViewController
+@interface LYCBrideSaySecondCell : UICollectionViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+
+
+
+
 
 @end
