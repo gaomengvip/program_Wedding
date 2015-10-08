@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
+    NSLog(@"!!!!");
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
     flowLayout.itemSize = CGSizeMake(self.view.frame.size.width, 30);
     flowLayout.minimumLineSpacing = 0;
