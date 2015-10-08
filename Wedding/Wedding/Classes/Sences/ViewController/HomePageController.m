@@ -24,6 +24,17 @@
 
 @implementation HomePageController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        
+        UIImage *img = [UIImage imageNamed:@"Z-2.ico"];
+        self.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"首页" image:img selectedImage:img];
+        self.navigationItem.title = self.tabBarItem.title;
+    }
+    return self;
+}
+
 -(instancetype)initWithStyle:(UITableViewStyle)style{
     if (self = [super initWithStyle:UITableViewStyleGrouped]) {
         
