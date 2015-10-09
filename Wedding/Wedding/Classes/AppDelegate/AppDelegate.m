@@ -23,19 +23,18 @@
     // Override point for customization after application launch.
     
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[HomePageController new]];
-    
-    
-    
-    
-    
-    
-    
+
     
     UINavigationController *homePaheVC = [[UINavigationController alloc]initWithRootViewController:[HomePageController new]];
     
     UINavigationController *secondVC = [[UINavigationController alloc]initWithRootViewController:[ShwanClassificationController new]];
     
     UINavigationController *thirdVC = [[UINavigationController alloc]initWithRootViewController:[LYCBrideSayController new]];
+    
+    thirdVC.title = @"新娘说";
+    UIImage *img = [UIImage imageNamed:@"LYC"];
+   thirdVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"新娘说" image:img tag:1000];
+
     
     NSArray *array = @[homePaheVC,secondVC,thirdVC];
 

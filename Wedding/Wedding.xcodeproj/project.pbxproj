@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2329845FFAB6D210F012D62E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCFDA029E7A565241DF361 /* libPods.a */; };
+		C20DF77C1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */; settings = {ASSET_TAGS = (); }; };
+		C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */; settings = {ASSET_TAGS = (); }; };
+		C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */; settings = {ASSET_TAGS = (); }; };
+		C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */; settings = {ASSET_TAGS = (); }; };
+		C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C29047ED1BC606E100706772 /* LYCBrideSayFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29047E01BC606E100706772 /* LYCBrideSayFirstCell.xib */; };
 		C29047EF1BC606E100706772 /* LYCBrideSaySecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29047E31BC606E100706772 /* LYCBrideSaySecondCell.xib */; };
 		C29047F81BC606F300706772 /* Model4HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C29047F51BC606F300706772 /* Model4HomePage.m */; };
 		C29047F91BC606F300706772 /* SHwanModle.m in Sources */ = {isa = PBXBuildFile; fileRef = C29047F71BC606F300706772 /* SHwanModle.m */; };
-		C29047FF1BC6070800706772 /* LYCHeader4BrideSayFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = C29047FD1BC6070800706772 /* LYCHeader4BrideSayFirstView.m */; };
 		C29048071BC6072100706772 /* LYCBrideSayController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29048031BC6072100706772 /* LYCBrideSayController.m */; };
 		C29048081BC6072100706772 /* ShwanClassificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29048051BC6072100706772 /* ShwanClassificationController.m */; };
 		C290482D1BC6073E00706772 /* CarouselFingure.m in Sources */ = {isa = PBXBuildFile; fileRef = C290480A1BC6073E00706772 /* CarouselFingure.m */; };
@@ -42,6 +46,9 @@
 		C29048531BC6090900706772 /* LYCBrideSayFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29048521BC6090900706772 /* LYCBrideSayFirstCell.m */; };
 		C29048551BC6091D00706772 /* LYCBrideSaySecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29048541BC6091D00706772 /* LYCBrideSaySecondCell.m */; };
 		C29048601BC60AE500706772 /* headerView4HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C290485F1BC60AE500706772 /* headerView4HomePage.m */; };
+		C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */; };
+		C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */; };
+		C2C3CA881BC6189500654CE9 /* LYC.png in Resources */ = {isa = PBXBuildFile; fileRef = C2C3CA871BC6189500654CE9 /* LYC.png */; };
 		C2F56D911BC4BC7300FB0A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56D901BC4BC7300FB0A9B /* main.m */; };
 		C2F56D961BC4BC7300FB0A9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D951BC4BC7300FB0A9B /* Images.xcassets */; };
 		C2F56D991BC4BC7300FB0A9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D971BC4BC7300FB0A9B /* LaunchScreen.xib */; };
@@ -70,6 +77,14 @@
 
 /* Begin PBXFileReference section */
 		768FCE94DE073BDDEFD607F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C20DF7791BC78E0900DA89F6 /* LYCBrideSayThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayThirdCell.h; sourceTree = "<group>"; };
+		C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayThirdCell.m; sourceTree = "<group>"; };
+		C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayThirdCell.xib; sourceTree = "<group>"; };
+		C20DF77E1BC7928600DA89F6 /* LYCBrideSayThirdCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayThirdCell2.h; sourceTree = "<group>"; };
+		C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayThirdCell2.m; sourceTree = "<group>"; };
+		C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayThirdCell2.xib; sourceTree = "<group>"; };
+		C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadDetailControllerViewController.h; sourceTree = "<group>"; };
+		C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadDetailControllerViewController.m; sourceTree = "<group>"; };
 		C29047DE1BC606E100706772 /* LYCBrideSayFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayFirstCell.h; sourceTree = "<group>"; };
 		C29047E01BC606E100706772 /* LYCBrideSayFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayFirstCell.xib; sourceTree = "<group>"; };
 		C29047E31BC606E100706772 /* LYCBrideSaySecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSaySecondCell.xib; sourceTree = "<group>"; };
@@ -77,8 +92,6 @@
 		C29047F51BC606F300706772 /* Model4HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model4HomePage.m; sourceTree = "<group>"; };
 		C29047F61BC606F300706772 /* SHwanModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHwanModle.h; sourceTree = "<group>"; };
 		C29047F71BC606F300706772 /* SHwanModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHwanModle.m; sourceTree = "<group>"; };
-		C29047FC1BC6070800706772 /* LYCHeader4BrideSayFirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCHeader4BrideSayFirstView.h; sourceTree = "<group>"; };
-		C29047FD1BC6070800706772 /* LYCHeader4BrideSayFirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCHeader4BrideSayFirstView.m; sourceTree = "<group>"; };
 		C29048021BC6072100706772 /* LYCBrideSayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayController.h; sourceTree = "<group>"; };
 		C29048031BC6072100706772 /* LYCBrideSayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayController.m; sourceTree = "<group>"; };
 		C29048041BC6072100706772 /* ShwanClassificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanClassificationController.h; sourceTree = "<group>"; };
@@ -134,6 +147,11 @@
 		C29048561BC6092A00706772 /* LYCBrideSaySecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSaySecondCell.h; sourceTree = "<group>"; };
 		C290485E1BC60AE500706772 /* headerView4HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headerView4HomePage.h; sourceTree = "<group>"; };
 		C290485F1BC60AE500706772 /* headerView4HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headerView4HomePage.m; sourceTree = "<group>"; };
+		C2C3CA811BC615C800654CE9 /* LYCBrideSayHeadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadHelper.h; sourceTree = "<group>"; };
+		C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadHelper.m; sourceTree = "<group>"; };
+		C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadItem.h; sourceTree = "<group>"; };
+		C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadItem.m; sourceTree = "<group>"; };
+		C2C3CA871BC6189500654CE9 /* LYC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LYC.png; sourceTree = "<group>"; };
 		C2F56D8B1BC4BC7300FB0A9B /* Wedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F56D8F1BC4BC7300FB0A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F56D901BC4BC7300FB0A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -370,6 +388,12 @@
 				C29048561BC6092A00706772 /* LYCBrideSaySecondCell.h */,
 				C29048541BC6091D00706772 /* LYCBrideSaySecondCell.m */,
 				C29047E31BC606E100706772 /* LYCBrideSaySecondCell.xib */,
+				C20DF7791BC78E0900DA89F6 /* LYCBrideSayThirdCell.h */,
+				C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */,
+				C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */,
+				C20DF77E1BC7928600DA89F6 /* LYCBrideSayThirdCell2.h */,
+				C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */,
+				C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */,
 				C2F56E171BC5360000FB0A9B /* YLTMyCell.h */,
 				C2F56E181BC5360000FB0A9B /* YLTMyCell.m */,
 				C2F56E191BC5360000FB0A9B /* YLTMyCell.xib */,
@@ -385,6 +409,8 @@
 			children = (
 				C2F56DC51BC4BF9900FB0A9B /* ViewController3.h */,
 				C2F56DC61BC4BF9900FB0A9B /* ViewController3.m */,
+				C2C3CA811BC615C800654CE9 /* LYCBrideSayHeadHelper.h */,
+				C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -404,6 +430,8 @@
 				C29047F51BC606F300706772 /* Model4HomePage.m */,
 				C29047F61BC606F300706772 /* SHwanModle.h */,
 				C29047F71BC606F300706772 /* SHwanModle.m */,
+				C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */,
+				C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -431,8 +459,6 @@
 			children = (
 				C290485E1BC60AE500706772 /* headerView4HomePage.h */,
 				C290485F1BC60AE500706772 /* headerView4HomePage.m */,
-				C29047FC1BC6070800706772 /* LYCHeader4BrideSayFirstView.h */,
-				C29047FD1BC6070800706772 /* LYCHeader4BrideSayFirstView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -444,10 +470,13 @@
 				C29048411BC6088000706772 /* HomePageController.m */,
 				C29048021BC6072100706772 /* LYCBrideSayController.h */,
 				C29048031BC6072100706772 /* LYCBrideSayController.m */,
+				C2C3CA871BC6189500654CE9 /* LYC.png */,
 				C29048041BC6072100706772 /* ShwanClassificationController.h */,
 				C29048051BC6072100706772 /* ShwanClassificationController.m */,
 				C2F56E2A1BC536DE00FB0A9B /* YLTMyController.h */,
 				C2F56E2B1BC536DE00FB0A9B /* YLTMyController.m */,
+				C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */,
+				C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -544,8 +573,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */,
 				C290484F1BC608E600706772 /* OneSectionCollectionCell.xib in Resources */,
+				C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */,
 				C29047EF1BC606E100706772 /* LYCBrideSaySecondCell.xib in Resources */,
+				C2C3CA881BC6189500654CE9 /* LYC.png in Resources */,
 				C2F56D991BC4BC7300FB0A9B /* LaunchScreen.xib in Resources */,
 				C2F56E1B1BC5360000FB0A9B /* YLTMyCell.xib in Resources */,
 				C290484D1BC608E600706772 /* BannerCell.xib in Resources */,
@@ -610,15 +642,19 @@
 				C29048351BC6073E00706772 /* SDWebImageManager.m in Sources */,
 				C29048071BC6072100706772 /* LYCBrideSayController.m in Sources */,
 				C290482D1BC6073E00706772 /* CarouselFingure.m in Sources */,
+				C20DF77C1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m in Sources */,
 				C29048081BC6072100706772 /* ShwanClassificationController.m in Sources */,
 				C29048331BC6073E00706772 /* SDWebImageDownloader.m in Sources */,
 				C2F56DD01BC4BFB900FB0A9B /* ViewController6.m in Sources */,
 				C29048311BC6073E00706772 /* SDWebImageCompat.m in Sources */,
 				C2F56DDF1BC4C4D900FB0A9B /* RootViewController.m in Sources */,
+				C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */,
+				C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */,
 				C290483D1BC6073E00706772 /* UIView+WebCacheOperation.m in Sources */,
 				C2F56D911BC4BC7300FB0A9B /* main.m in Sources */,
 				C29048601BC60AE500706772 /* headerView4HomePage.m in Sources */,
 				C29047F81BC606F300706772 /* Model4HomePage.m in Sources */,
+				C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */,
 				C290483C1BC6073E00706772 /* UIImageView+WebCache.m in Sources */,
 				C290483A1BC6073E00706772 /* UIImage+WebP.m in Sources */,
 				C29048301BC6073E00706772 /* SDImageCache.m in Sources */,
@@ -634,9 +670,9 @@
 				C29047F91BC606F300706772 /* SHwanModle.m in Sources */,
 				C29048421BC6088000706772 /* HomePageController.m in Sources */,
 				C2F56DC71BC4BF9900FB0A9B /* ViewController3.m in Sources */,
+				C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */,
 				C290484C1BC608E600706772 /* BannerCell.m in Sources */,
 				C29048321BC6073E00706772 /* SDWebImageDecoder.m in Sources */,
-				C29047FF1BC6070800706772 /* LYCHeader4BrideSayFirstView.m in Sources */,
 				C29048361BC6073E00706772 /* SDWebImagePrefetcher.m in Sources */,
 				C290482E1BC6073E00706772 /* MKAnnotationView+WebCache.m in Sources */,
 				C29048381BC6073E00706772 /* UIImage+GIF.m in Sources */,
@@ -763,6 +799,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
 				INFOPLIST_FILE = Wedding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -775,6 +812,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
 				INFOPLIST_FILE = Wedding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

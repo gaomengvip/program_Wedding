@@ -11,6 +11,9 @@
 @interface LYCBrideSaySecondCell : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UILabel *lab4title;
+@property (weak, nonatomic) IBOutlet UILabel *lab4title2;
+@property (weak, nonatomic) IBOutlet UILabel *lab4addCount;
 
 
 
