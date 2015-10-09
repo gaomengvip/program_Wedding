@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "HomePageController.h"
 #import "ShwanClassificationController.h"
-
+#import "LYCBrideSayController.h"
 @interface AppDelegate ()
 
 @end
