@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import "HomePageController.h"
 #import "ShwanClassificationController.h"
-#import "LYCBrideSayController.h"
 
 @interface AppDelegate ()
 
@@ -38,19 +37,8 @@
     
     NSArray *array = @[homePaheVC,secondVC,thirdVC];
 
-    UITabBarController *tabBarVC = [[UITabBarController alloc]init];
-    tabBarVC.viewControllers = array;
-    //    //背景图片
     
-    tabBarVC.tabBar.backgroundImage = [UIImage imageNamed:@"tabBar"];
-    tabBarVC.selectedIndex = 0;
-    //字体颜色
-    tabBarVC.tabBar.tintColor = [UIColor blackColor];
-    
-    self.window.rootViewController = tabBarVC;
-
-    
-    
+    self.window.rootViewController=[ShwanClassificationController new];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];         
     return YES;

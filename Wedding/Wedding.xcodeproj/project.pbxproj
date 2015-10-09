@@ -13,6 +13,17 @@
 		C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */; settings = {ASSET_TAGS = (); }; };
 		C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */; settings = {ASSET_TAGS = (); }; };
 		C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */; };
+		C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */; };
+		C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FE31BC63C4300325548 /* ShwanClassificationCell.m */; };
+		C2795FE71BC661E800325548 /* ShwanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FE61BC661E800325548 /* ShwanViewController.m */; };
+		C2795FEA1BC662A700325548 /* ShwanOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FE91BC662A700325548 /* ShwanOneController.m */; };
+		C2795FED1BC662BA00325548 /* ShwanTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FEC1BC662BA00325548 /* ShwanTwoController.m */; };
+		C2795FF01BC662C800325548 /* ShwanThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FEF1BC662C800325548 /* ShwanThreeController.m */; };
+		C2795FF31BC6673900325548 /* ShwanpackageModle.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FF21BC6673900325548 /* ShwanpackageModle.m */; };
+		C2795FF61BC66CA700325548 /* ShwanHandShare.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FF51BC66CA700325548 /* ShwanHandShare.m */; };
+		C2795FF91BC677AD00325548 /* ShwanPackerCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FF81BC677AD00325548 /* ShwanPackerCellTableViewCell.m */; };
+		C2795FFB1BC67B0200325548 /* iconfont-starton-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FFA1BC67B0200325548 /* iconfont-starton-1.png */; };
 		C29047ED1BC606E100706772 /* LYCBrideSayFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29047E01BC606E100706772 /* LYCBrideSayFirstCell.xib */; };
 		C29047EF1BC606E100706772 /* LYCBrideSaySecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29047E31BC606E100706772 /* LYCBrideSaySecondCell.xib */; };
 		C29047F81BC606F300706772 /* Model4HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C29047F51BC606F300706772 /* Model4HomePage.m */; };
@@ -85,6 +96,25 @@
 		C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayThirdCell2.xib; sourceTree = "<group>"; };
 		C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadDetailControllerViewController.h; sourceTree = "<group>"; };
 		C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadDetailControllerViewController.m; sourceTree = "<group>"; };
+		C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-sanjiao.png"; sourceTree = "<group>"; };
+		C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shangsanjiao.png"; sourceTree = "<group>"; };
+		C2795FE21BC63C4300325548 /* ShwanClassificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanClassificationCell.h; sourceTree = "<group>"; };
+		C2795FE31BC63C4300325548 /* ShwanClassificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanClassificationCell.m; sourceTree = "<group>"; };
+		C2795FE51BC661E800325548 /* ShwanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanViewController.h; sourceTree = "<group>"; };
+		C2795FE61BC661E800325548 /* ShwanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanViewController.m; sourceTree = "<group>"; };
+		C2795FE81BC662A700325548 /* ShwanOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanOneController.h; sourceTree = "<group>"; };
+		C2795FE91BC662A700325548 /* ShwanOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanOneController.m; sourceTree = "<group>"; };
+		C2795FEB1BC662BA00325548 /* ShwanTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanTwoController.h; sourceTree = "<group>"; };
+		C2795FEC1BC662BA00325548 /* ShwanTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanTwoController.m; sourceTree = "<group>"; };
+		C2795FEE1BC662C800325548 /* ShwanThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanThreeController.h; sourceTree = "<group>"; };
+		C2795FEF1BC662C800325548 /* ShwanThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanThreeController.m; sourceTree = "<group>"; };
+		C2795FF11BC6673900325548 /* ShwanpackageModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanpackageModle.h; sourceTree = "<group>"; };
+		C2795FF21BC6673900325548 /* ShwanpackageModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanpackageModle.m; sourceTree = "<group>"; };
+		C2795FF41BC66CA700325548 /* ShwanHandShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanHandShare.h; sourceTree = "<group>"; };
+		C2795FF51BC66CA700325548 /* ShwanHandShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanHandShare.m; sourceTree = "<group>"; };
+		C2795FF71BC677AD00325548 /* ShwanPackerCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanPackerCellTableViewCell.h; sourceTree = "<group>"; };
+		C2795FF81BC677AD00325548 /* ShwanPackerCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanPackerCellTableViewCell.m; sourceTree = "<group>"; };
+		C2795FFA1BC67B0200325548 /* iconfont-starton-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-starton-1.png"; sourceTree = "<group>"; };
 		C29047DE1BC606E100706772 /* LYCBrideSayFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayFirstCell.h; sourceTree = "<group>"; };
 		C29047E01BC606E100706772 /* LYCBrideSayFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayFirstCell.xib; sourceTree = "<group>"; };
 		C29047E31BC606E100706772 /* LYCBrideSaySecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSaySecondCell.xib; sourceTree = "<group>"; };
@@ -400,6 +430,10 @@
 				C2F56E1F1BC5365900FB0A9B /* YLTMyHeaderView.h */,
 				C2F56E201BC5365900FB0A9B /* YLTMyHeaderView.m */,
 				C2F56E211BC5365900FB0A9B /* YLTMyHeaderView.xib */,
+				C2795FE21BC63C4300325548 /* ShwanClassificationCell.h */,
+				C2795FE31BC63C4300325548 /* ShwanClassificationCell.m */,
+				C2795FF71BC677AD00325548 /* ShwanPackerCellTableViewCell.h */,
+				C2795FF81BC677AD00325548 /* ShwanPackerCellTableViewCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -411,6 +445,8 @@
 				C2F56DC61BC4BF9900FB0A9B /* ViewController3.m */,
 				C2C3CA811BC615C800654CE9 /* LYCBrideSayHeadHelper.h */,
 				C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */,
+				C2795FF41BC66CA700325548 /* ShwanHandShare.h */,
+				C2795FF51BC66CA700325548 /* ShwanHandShare.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -432,6 +468,8 @@
 				C29047F71BC606F300706772 /* SHwanModle.m */,
 				C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */,
 				C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */,
+				C2795FF11BC6673900325548 /* ShwanpackageModle.h */,
+				C2795FF21BC6673900325548 /* ShwanpackageModle.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -439,6 +477,9 @@
 		C2F56DB91BC4BDD900FB0A9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2795FFA1BC67B0200325548 /* iconfont-starton-1.png */,
+				C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */,
+				C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */,
 				C2F56DCE1BC4BFB900FB0A9B /* ViewController6.h */,
 				C2F56DCF1BC4BFB900FB0A9B /* ViewController6.m */,
 			);
@@ -473,6 +514,14 @@
 				C2C3CA871BC6189500654CE9 /* LYC.png */,
 				C29048041BC6072100706772 /* ShwanClassificationController.h */,
 				C29048051BC6072100706772 /* ShwanClassificationController.m */,
+				C2795FE51BC661E800325548 /* ShwanViewController.h */,
+				C2795FE61BC661E800325548 /* ShwanViewController.m */,
+				C2795FE81BC662A700325548 /* ShwanOneController.h */,
+				C2795FE91BC662A700325548 /* ShwanOneController.m */,
+				C2795FEB1BC662BA00325548 /* ShwanTwoController.h */,
+				C2795FEC1BC662BA00325548 /* ShwanTwoController.m */,
+				C2795FEE1BC662C800325548 /* ShwanThreeController.h */,
+				C2795FEF1BC662C800325548 /* ShwanThreeController.m */,
 				C2F56E2A1BC536DE00FB0A9B /* YLTMyController.h */,
 				C2F56E2B1BC536DE00FB0A9B /* YLTMyController.m */,
 				C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */,
@@ -576,11 +625,14 @@
 				C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */,
 				C290484F1BC608E600706772 /* OneSectionCollectionCell.xib in Resources */,
 				C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */,
+				C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */,
 				C29047EF1BC606E100706772 /* LYCBrideSaySecondCell.xib in Resources */,
 				C2C3CA881BC6189500654CE9 /* LYC.png in Resources */,
 				C2F56D991BC4BC7300FB0A9B /* LaunchScreen.xib in Resources */,
 				C2F56E1B1BC5360000FB0A9B /* YLTMyCell.xib in Resources */,
+				C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */,
 				C290484D1BC608E600706772 /* BannerCell.xib in Resources */,
+				C2795FFB1BC67B0200325548 /* iconfont-starton-1.png in Resources */,
 				C29047ED1BC606E100706772 /* LYCBrideSayFirstCell.xib in Resources */,
 				C29048511BC608E600706772 /* ThreeSectionCell.xib in Resources */,
 				C2F56D961BC4BC7300FB0A9B /* Images.xcassets in Resources */,
@@ -647,22 +699,27 @@
 				C29048331BC6073E00706772 /* SDWebImageDownloader.m in Sources */,
 				C2F56DD01BC4BFB900FB0A9B /* ViewController6.m in Sources */,
 				C29048311BC6073E00706772 /* SDWebImageCompat.m in Sources */,
+				C2795FF01BC662C800325548 /* ShwanThreeController.m in Sources */,
 				C2F56DDF1BC4C4D900FB0A9B /* RootViewController.m in Sources */,
 				C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */,
 				C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */,
+				C2795FED1BC662BA00325548 /* ShwanTwoController.m in Sources */,
 				C290483D1BC6073E00706772 /* UIView+WebCacheOperation.m in Sources */,
 				C2F56D911BC4BC7300FB0A9B /* main.m in Sources */,
+				C2795FF31BC6673900325548 /* ShwanpackageModle.m in Sources */,
 				C29048601BC60AE500706772 /* headerView4HomePage.m in Sources */,
 				C29047F81BC606F300706772 /* Model4HomePage.m in Sources */,
 				C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */,
 				C290483C1BC6073E00706772 /* UIImageView+WebCache.m in Sources */,
 				C290483A1BC6073E00706772 /* UIImage+WebP.m in Sources */,
+				C2795FF61BC66CA700325548 /* ShwanHandShare.m in Sources */,
 				C29048301BC6073E00706772 /* SDImageCache.m in Sources */,
 				C29048391BC6073E00706772 /* UIImage+MultiFormat.m in Sources */,
 				C29048341BC6073E00706772 /* SDWebImageDownloaderOperation.m in Sources */,
 				C2F56E2C1BC536DE00FB0A9B /* YLTMyController.m in Sources */,
 				C290483B1BC6073E00706772 /* UIImageView+HighlightedWebCache.m in Sources */,
 				C2F56DC11BC4BF6800FB0A9B /* ViewController1.m in Sources */,
+				C2795FE71BC661E800325548 /* ShwanViewController.m in Sources */,
 				C290484E1BC608E600706772 /* OneSectionCollectionCell.m in Sources */,
 				C2F56E221BC5365900FB0A9B /* YLTMyHeaderView.m in Sources */,
 				C290482F1BC6073E00706772 /* NSData+ImageContentType.m in Sources */,
@@ -672,7 +729,11 @@
 				C2F56DC71BC4BF9900FB0A9B /* ViewController3.m in Sources */,
 				C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */,
 				C290484C1BC608E600706772 /* BannerCell.m in Sources */,
+				C2795FF91BC677AD00325548 /* ShwanPackerCellTableViewCell.m in Sources */,
+				C2795FEA1BC662A700325548 /* ShwanOneController.m in Sources */,
 				C29048321BC6073E00706772 /* SDWebImageDecoder.m in Sources */,
+				C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */,
+				C29047FF1BC6070800706772 /* LYCHeader4BrideSayFirstView.m in Sources */,
 				C29048361BC6073E00706772 /* SDWebImagePrefetcher.m in Sources */,
 				C290482E1BC6073E00706772 /* MKAnnotationView+WebCache.m in Sources */,
 				C29048381BC6073E00706772 /* UIImage+GIF.m in Sources */,
@@ -746,7 +807,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -784,7 +845,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -800,6 +861,7 @@
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
 				INFOPLIST_FILE = Wedding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -813,6 +875,7 @@
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
 				INFOPLIST_FILE = Wedding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
