@@ -11,7 +11,7 @@ typedef void (^Block4Str)(NSString*);
 @interface ShwanClassificationController : UIViewController
 
 
-@property(nonatomic,strong)NSString* number;
+@property(nonatomic,assign)NSInteger number;
 
 @property(nonatomic,copy)Block4Str block;
 

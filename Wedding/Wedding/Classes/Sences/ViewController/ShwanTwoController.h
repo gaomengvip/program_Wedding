@@ -10,4 +10,7 @@
 
 @interface ShwanTwoController : UIViewController
 
+@property(nonatomic,assign)NSInteger Mynumber;
+
+
 @end
