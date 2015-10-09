@@ -18,10 +18,6 @@
 
 @end
 
-
-
-
-
 @interface CarouselFingure : UIView
 
 //图片数组
