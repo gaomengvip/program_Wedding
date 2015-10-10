@@ -14,7 +14,6 @@
 		C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */; settings = {ASSET_TAGS = (); }; };
 		C230097D1BC776F100C9B627 /* ShwanComboViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C230097C1BC776F100C9B627 /* ShwanComboViewCell.m */; };
 		C23009801BC777C200C9B627 /* ShwanComboModle.m in Sources */ = {isa = PBXBuildFile; fileRef = C230097F1BC777C200C9B627 /* ShwanComboModle.m */; };
-		C23009821BC7923A00C9B627 /* QQ20151009-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */; };
 		C23009851BC798FD00C9B627 /* Shwanmerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009841BC798FD00C9B627 /* Shwanmerchant.m */; };
 		C23009881BC7AA6200C9B627 /* ShwanMerchantsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009871BC7AA6200C9B627 /* ShwanMerchantsCell.m */; };
 		C230098B1BC7C97C00C9B627 /* ShwanModleWeddingdress.m in Sources */ = {isa = PBXBuildFile; fileRef = C230098A1BC7C97C00C9B627 /* ShwanModleWeddingdress.m */; };
@@ -22,6 +21,7 @@
 		C23009911BC7E09800C9B627 /* ShwanWeddingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009901BC7E09800C9B627 /* ShwanWeddingController.m */; };
 		C23009941BC7F07900C9B627 /* ShwanWeddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009931BC7F07900C9B627 /* ShwanWeddCell.m */; };
 		C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C24256391BC89BE4008B5BD5 /* LYC.png in Resources */ = {isa = PBXBuildFile; fileRef = C24256381BC89BE4008B5BD5 /* LYC.png */; settings = {ASSET_TAGS = (); }; };
 		C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */; };
 		C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */; };
 		C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FE31BC63C4300325548 /* ShwanClassificationCell.m */; };
@@ -68,7 +68,6 @@
 		C29048601BC60AE500706772 /* headerView4HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C290485F1BC60AE500706772 /* headerView4HomePage.m */; };
 		C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */; };
 		C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */; };
-		C2C3CA881BC6189500654CE9 /* LYC.png in Resources */ = {isa = PBXBuildFile; fileRef = C2C3CA871BC6189500654CE9 /* LYC.png */; };
 		C2F56D911BC4BC7300FB0A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56D901BC4BC7300FB0A9B /* main.m */; };
 		C2F56D961BC4BC7300FB0A9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D951BC4BC7300FB0A9B /* Images.xcassets */; };
 		C2F56D991BC4BC7300FB0A9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D971BC4BC7300FB0A9B /* LaunchScreen.xib */; };
@@ -107,7 +106,6 @@
 		C230097C1BC776F100C9B627 /* ShwanComboViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanComboViewCell.m; sourceTree = "<group>"; };
 		C230097E1BC777C200C9B627 /* ShwanComboModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanComboModle.h; sourceTree = "<group>"; };
 		C230097F1BC777C200C9B627 /* ShwanComboModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanComboModle.m; sourceTree = "<group>"; };
-		C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "QQ20151009-2@2x.png"; path = "../../Resources/QQ20151009-2@2x.png"; sourceTree = "<group>"; };
 		C23009831BC798FD00C9B627 /* Shwanmerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shwanmerchant.h; sourceTree = "<group>"; };
 		C23009841BC798FD00C9B627 /* Shwanmerchant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shwanmerchant.m; sourceTree = "<group>"; };
 		C23009861BC7AA6200C9B627 /* ShwanMerchantsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMerchantsCell.h; sourceTree = "<group>"; };
@@ -122,6 +120,7 @@
 		C23009931BC7F07900C9B627 /* ShwanWeddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanWeddCell.m; sourceTree = "<group>"; };
 		C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadDetailControllerViewController.h; sourceTree = "<group>"; };
 		C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadDetailControllerViewController.m; sourceTree = "<group>"; };
+		C24256381BC89BE4008B5BD5 /* LYC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LYC.png; sourceTree = "<group>"; };
 		C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-sanjiao.png"; sourceTree = "<group>"; };
 		C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shangsanjiao.png"; sourceTree = "<group>"; };
 		C2795FE21BC63C4300325548 /* ShwanClassificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanClassificationCell.h; sourceTree = "<group>"; };
@@ -207,7 +206,6 @@
 		C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadHelper.m; sourceTree = "<group>"; };
 		C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadItem.h; sourceTree = "<group>"; };
 		C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadItem.m; sourceTree = "<group>"; };
-		C2C3CA871BC6189500654CE9 /* LYC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LYC.png; path = ../Sences/ViewController/LYC.png; sourceTree = "<group>"; };
 		C2F56D8B1BC4BC7300FB0A9B /* Wedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F56D8F1BC4BC7300FB0A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F56D901BC4BC7300FB0A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -517,10 +515,10 @@
 		C2F56DB91BC4BDD900FB0A9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C24256381BC89BE4008B5BD5 /* LYC.png */,
 				C2795FFA1BC67B0200325548 /* iconfont-starton-1.png */,
 				C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */,
 				C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */,
-				C2C3CA871BC6189500654CE9 /* LYC.png */,
 				C2F56DCE1BC4BFB900FB0A9B /* ViewController6.h */,
 				C2F56DCF1BC4BFB900FB0A9B /* ViewController6.m */,
 			);
@@ -548,7 +546,6 @@
 		C2F56DBC1BC4BDD900FB0A9B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */,
 				C29048401BC6088000706772 /* HomePageController.h */,
 				C29048411BC6088000706772 /* HomePageController.m */,
 				C29048021BC6072100706772 /* LYCBrideSayController.h */,
@@ -669,9 +666,7 @@
 				C290484F1BC608E600706772 /* OneSectionCollectionCell.xib in Resources */,
 				C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */,
 				C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */,
-				C23009821BC7923A00C9B627 /* QQ20151009-2@2x.png in Resources */,
 				C29047EF1BC606E100706772 /* LYCBrideSaySecondCell.xib in Resources */,
-				C2C3CA881BC6189500654CE9 /* LYC.png in Resources */,
 				C2F56D991BC4BC7300FB0A9B /* LaunchScreen.xib in Resources */,
 				C2F56E1B1BC5360000FB0A9B /* YLTMyCell.xib in Resources */,
 				C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */,
@@ -679,6 +674,7 @@
 				C2795FFB1BC67B0200325548 /* iconfont-starton-1.png in Resources */,
 				C29047ED1BC606E100706772 /* LYCBrideSayFirstCell.xib in Resources */,
 				C29048511BC608E600706772 /* ThreeSectionCell.xib in Resources */,
+				C24256391BC89BE4008B5BD5 /* LYC.png in Resources */,
 				C2F56D961BC4BC7300FB0A9B /* Images.xcassets in Resources */,
 				C2F56E231BC5365900FB0A9B /* YLTMyHeaderView.xib in Resources */,
 			);
