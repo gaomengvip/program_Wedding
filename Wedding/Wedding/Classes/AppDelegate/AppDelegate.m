@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomePageController.h"
-#import "ShwanClassificationController.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     // Override point for customization after application launch.
 
     
-    self.window.rootViewController=[ShwanClassificationController new];
+    self.window.rootViewController=[RootViewController new];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];         
     return YES;
