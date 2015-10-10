@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface YLTMyCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *img4pic;
+@property (weak, nonatomic) IBOutlet UILabel *lab4Text;
 
 @end

@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "HomePageController.h"
+#import "RootViewController.h"
+
+
 #import "ShwanClassificationController.h"
 #import "LYCBrideSayController.h"
 @interface AppDelegate ()
@@ -38,7 +41,7 @@
     NSArray *array = @[homePaheVC,secondVC,thirdVC];
 
     
-    self.window.rootViewController=[ShwanClassificationController new];
+    self.window.rootViewController=[RootViewController new];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];         
     return YES;
