@@ -12,7 +12,7 @@ typedef void (^Block4Str)(NSString*);
 
 
 @property(nonatomic,assign)NSInteger number;
-
+@property(nonatomic,assign)NSInteger Morenumber;
 @property(nonatomic,copy)Block4Str block;
 
 

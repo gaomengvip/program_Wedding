@@ -12,8 +12,10 @@
 @property(nonatomic,strong)NSMutableArray * array;
 @property(nonatomic,strong)NSMutableArray * comboArray;
 @property(nonatomic,strong)NSMutableArray * merchantArray;
-
+@property(nonatomic,strong)NSMutableArray * moreArray;
+@property(nonatomic,strong)NSMutableArray * moreComArray;
 @property(nonatomic,assign)NSInteger number;
+@property(nonatomic,assign)NSInteger Morenumber;
 +(ShwanHandShare*)share;
 
 
@@ -25,5 +27,7 @@
 
 -(void)setWithMerchantNumber:(NSInteger)number URL:(void (^)())blockURL;
 
+-(void)setWithMoreNumber:(NSInteger)number URL:(void (^)())blockURL;
 
+-(void)setWithMorecomNumber:(NSInteger)number URL:(void (^)())blockURL;
 @end

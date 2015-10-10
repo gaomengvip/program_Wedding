@@ -89,12 +89,10 @@
 
     ShwanWeddCell * cell =[collectionView dequeueReusableCellWithReuseIdentifier:@"weddcell" forIndexPath:indexPath];
     ShwanModleWeddingdress*modle =_imageViewArray[indexPath.row];
-  //  ShwanModleWeddingdress*modle1 =_nameArray[indexPath.row];
     
     cell.backgroundColor=[UIColor whiteColor];
-   // NSLog(@"%@",urlstr);
-    [cell.weddingView sd_setImageWithURL:[NSURL URLWithString:modle.image_path]];
-    cell.titleLable.text=modle.name;
+  [cell.weddingView sd_setImageWithURL:[NSURL URLWithString:modle.image_path]];
+  cell.titleLable.text=modle.name;
     return cell;
 
 

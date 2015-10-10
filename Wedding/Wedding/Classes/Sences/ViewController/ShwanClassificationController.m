@@ -14,6 +14,9 @@
 #import "ShwanHandShare.h"
 #import "ShwanWeddingCell.h"
 #import "ShwanWeddingController.h"
+#import "ShwanWeddingMoreController.h"
+#import "ShwanThreeController.h"
+#import "ShwanMarriageController.h"
 
 
 @interface ShwanClassificationController ()<UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource>
@@ -32,10 +35,10 @@
 @property(nonatomic,strong)NSMutableArray * modleArray;
 @property(nonatomic,strong)NSMutableArray * weddingDressArray;
 @property(nonatomic,strong)UICollectionView * buttonView;
-@property(nonatomic,strong)UIControl * footer4lable;
+@property(nonatomic,strong)UIButton * footer4lable;
 @property(nonatomic,strong)NSMutableArray * imageArray;
 @property(nonatomic,strong)NSMutableArray * titleArray;
-
+@property(nonatomic,strong)UIButton * button;
 
 @end
 
@@ -61,6 +64,7 @@ static NSString * URL4Weddingdress = @"http://hunliji.com/p/wedding/index.php/ho
         [self tableView];
         [self buttonView];
         [self footer4lable];
+        [self button];
        
     }
 
@@ -180,20 +184,42 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 
 
 #pragma mark---------------------懒加载------------------------------------
+
+-(UIButton*)button{
+
+    if (_button==nil) {
+        _button=[[UIButton alloc]initWithFrame:CGRectMake(0, self.tableView.frame.size.height+self.buttonView.frame.size.height+61,self.scrollView.frame.size.width, 40)];
+        
+        [_button setTitle:@"婚品采购" forState:UIControlStateNormal];
+        [_button setTitleColor:[UIColor  blackColor] forState:UIControlStateNormal];
+        [_button addTarget:self action:@selector(ButtonMarriageisTasted:) forControlEvents:UIControlEventTouchUpInside];
+        _button.backgroundColor=[UIColor whiteColor];
+        
+        [self.scrollView addSubview:_button];
+        
+    }
+
+    return _button;
+
+}
+
 -(UIControl*)footer4lable{
 
     if (_footer4lable==nil) {
-        _footer4lable=[[UIControl alloc]initWithFrame:CGRectMake(0, self.tableView.frame.size.height+self.buttonView.frame.size.height+21, self.scrollView.frame.size.width, 40)];
+        _footer4lable=[[UIButton alloc]initWithFrame:CGRectMake(0, self.tableView.frame.size.height+self.buttonView.frame.size.height+21, self.scrollView.frame.size.width, 40)];
         _footer4lable.backgroundColor=[UIColor whiteColor];
+        [_footer4lable setTitle:@"更多标签" forState:UIControlStateNormal];
+        [_footer4lable setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_footer4lable addTarget:self action:@selector(control4Action:) forControlEvents:UIControlEventTouchUpInside];
+        
         [self.scrollView addSubview:_footer4lable];
+        
            }
     
-    
-
-    return _footer4lable;
+   return _footer4lable;
 
 }
+
 -(UICollectionView*)buttonView{
 
 
@@ -325,6 +351,8 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
 
+  
+    
     return _weddingDressArray.count;
 
 }
@@ -367,7 +395,53 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 }
 
 
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
 
+
+
+    ShwanWeddingMoreController * ShwanMore =[ShwanWeddingMoreController new];
+
+    
+    
+    if (indexPath.row==0) {
+        
+        self.Morenumber=14;
+        [ShwanHandShare share].Morenumber=_Morenumber;
+        [self presentViewController:ShwanMore animated:NO completion:nil];
+        
+    }else if (indexPath.row==1) {
+        
+        self.Morenumber=18;
+        [ShwanHandShare share].Morenumber=_Morenumber;
+        [self presentViewController:ShwanMore animated:NO completion:nil];
+        
+    }else if (indexPath.row==2) {
+        
+        self.Morenumber=35;
+        [ShwanHandShare share].Morenumber=_Morenumber;
+        [self presentViewController:ShwanMore animated:NO completion:nil];
+        
+    }else if (indexPath.row==3) {
+        
+        self.Morenumber=42;
+        [ShwanHandShare share].Morenumber=_Morenumber;
+        [self presentViewController:ShwanMore animated:NO completion:nil];
+        
+    }else if (indexPath.row==4) {
+        
+        self.Morenumber=73;
+        [ShwanHandShare share].Morenumber=_Morenumber;
+        [self presentViewController:ShwanMore animated:NO completion:nil];
+        
+    }else  {
+        
+        self.Morenumber=71;
+        [ShwanHandShare share].Morenumber=_Morenumber;
+        [self presentViewController:ShwanMore animated:NO completion:nil];
+        
+    }
+    
+}
 
 
 
@@ -579,10 +653,13 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 
 -(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText{
 
+    ShwanThreeController * three=[ShwanThreeController new];
+    
     if ([_searchBar.text isEqualToString:@"商家"]) {
        
         
-        NSLog(@"跳转到商家页面");
+        
+        
     }
 
 
@@ -591,6 +668,20 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 
 
 #pragma mark-------------------Button点击事件------------------------------
+
+
+-(void)ButtonMarriageisTasted:(UIButton*)sender{
+
+    ShwanMarriageController * marriage =[ShwanMarriageController new];
+    
+    [self presentViewController:marriage animated:NO completion:nil];
+
+
+
+
+}
+
+
 -(void)control4Action:(UIControl*)sender{
 
     ShwanWeddingController * wedding =[ShwanWeddingController new];

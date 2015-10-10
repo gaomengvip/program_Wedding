@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2329845FFAB6D210F012D62E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCFDA029E7A565241DF361 /* libPods.a */; };
-		C20DF77C1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */; settings = {ASSET_TAGS = (); }; };
-		C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */; settings = {ASSET_TAGS = (); }; };
-		C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */; settings = {ASSET_TAGS = (); }; };
+		C20DF77C1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */; };
+		C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */; };
+		C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */; };
+		C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */; };
 		C230097D1BC776F100C9B627 /* ShwanComboViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C230097C1BC776F100C9B627 /* ShwanComboViewCell.m */; };
 		C23009801BC777C200C9B627 /* ShwanComboModle.m in Sources */ = {isa = PBXBuildFile; fileRef = C230097F1BC777C200C9B627 /* ShwanComboModle.m */; };
 		C23009851BC798FD00C9B627 /* Shwanmerchant.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009841BC798FD00C9B627 /* Shwanmerchant.m */; };
@@ -20,8 +20,12 @@
 		C230098E1BC7CD6200C9B627 /* ShwanWeddingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C230098D1BC7CD6200C9B627 /* ShwanWeddingCell.m */; };
 		C23009911BC7E09800C9B627 /* ShwanWeddingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009901BC7E09800C9B627 /* ShwanWeddingController.m */; };
 		C23009941BC7F07900C9B627 /* ShwanWeddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009931BC7F07900C9B627 /* ShwanWeddCell.m */; };
-		C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C24256391BC89BE4008B5BD5 /* LYC.png in Resources */ = {isa = PBXBuildFile; fileRef = C24256381BC89BE4008B5BD5 /* LYC.png */; settings = {ASSET_TAGS = (); }; };
+		C23064F21BC8BBC8002DCA92 /* ShwanMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23064F11BC8BBC8002DCA92 /* ShwanMoreCell.m */; };
+		C23064F51BC8BCAC002DCA92 /* ShwanMoreModle.m in Sources */ = {isa = PBXBuildFile; fileRef = C23064F41BC8BCAC002DCA92 /* ShwanMoreModle.m */; };
+		C23064F81BC8C84F002DCA92 /* ShwanMoreComoModle.m in Sources */ = {isa = PBXBuildFile; fileRef = C23064F71BC8C84F002DCA92 /* ShwanMoreComoModle.m */; };
+		C23064FB1BC8E4A8002DCA92 /* ShwanMarriageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23064FA1BC8E4A8002DCA92 /* ShwanMarriageController.m */; };
+		C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */; };
+		C24256391BC89BE4008B5BD5 /* LYC.png in Resources */ = {isa = PBXBuildFile; fileRef = C24256381BC89BE4008B5BD5 /* LYC.png */; };
 		C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */; };
 		C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */; };
 		C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FE31BC63C4300325548 /* ShwanClassificationCell.m */; };
@@ -66,6 +70,9 @@
 		C29048531BC6090900706772 /* LYCBrideSayFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29048521BC6090900706772 /* LYCBrideSayFirstCell.m */; };
 		C29048551BC6091D00706772 /* LYCBrideSaySecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29048541BC6091D00706772 /* LYCBrideSaySecondCell.m */; };
 		C29048601BC60AE500706772 /* headerView4HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C290485F1BC60AE500706772 /* headerView4HomePage.m */; };
+		C2B7BFE51BC8B167007D4533 /* ShwanWeddingMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7BFE41BC8B167007D4533 /* ShwanWeddingMoreController.m */; };
+		C2B7BFE81BC8B350007D4533 /* ShwanMoreWrokController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7BFE71BC8B350007D4533 /* ShwanMoreWrokController.m */; };
+		C2B7BFEB1BC8B376007D4533 /* ShwanMoreCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7BFEA1BC8B376007D4533 /* ShwanMoreCaseController.m */; };
 		C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */; };
 		C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */; };
 		C2F56D911BC4BC7300FB0A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56D901BC4BC7300FB0A9B /* main.m */; };
@@ -118,6 +125,14 @@
 		C23009901BC7E09800C9B627 /* ShwanWeddingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanWeddingController.m; sourceTree = "<group>"; };
 		C23009921BC7F07900C9B627 /* ShwanWeddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanWeddCell.h; sourceTree = "<group>"; };
 		C23009931BC7F07900C9B627 /* ShwanWeddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanWeddCell.m; sourceTree = "<group>"; };
+		C23064F01BC8BBC8002DCA92 /* ShwanMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMoreCell.h; sourceTree = "<group>"; };
+		C23064F11BC8BBC8002DCA92 /* ShwanMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMoreCell.m; sourceTree = "<group>"; };
+		C23064F31BC8BCAC002DCA92 /* ShwanMoreModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMoreModle.h; sourceTree = "<group>"; };
+		C23064F41BC8BCAC002DCA92 /* ShwanMoreModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMoreModle.m; sourceTree = "<group>"; };
+		C23064F61BC8C84F002DCA92 /* ShwanMoreComoModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMoreComoModle.h; sourceTree = "<group>"; };
+		C23064F71BC8C84F002DCA92 /* ShwanMoreComoModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMoreComoModle.m; sourceTree = "<group>"; };
+		C23064F91BC8E4A8002DCA92 /* ShwanMarriageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMarriageController.h; sourceTree = "<group>"; };
+		C23064FA1BC8E4A8002DCA92 /* ShwanMarriageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMarriageController.m; sourceTree = "<group>"; };
 		C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadDetailControllerViewController.h; sourceTree = "<group>"; };
 		C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadDetailControllerViewController.m; sourceTree = "<group>"; };
 		C24256381BC89BE4008B5BD5 /* LYC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LYC.png; sourceTree = "<group>"; };
@@ -202,6 +217,12 @@
 		C29048561BC6092A00706772 /* LYCBrideSaySecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSaySecondCell.h; sourceTree = "<group>"; };
 		C290485E1BC60AE500706772 /* headerView4HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headerView4HomePage.h; sourceTree = "<group>"; };
 		C290485F1BC60AE500706772 /* headerView4HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headerView4HomePage.m; sourceTree = "<group>"; };
+		C2B7BFE31BC8B167007D4533 /* ShwanWeddingMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanWeddingMoreController.h; sourceTree = "<group>"; };
+		C2B7BFE41BC8B167007D4533 /* ShwanWeddingMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanWeddingMoreController.m; sourceTree = "<group>"; };
+		C2B7BFE61BC8B350007D4533 /* ShwanMoreWrokController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMoreWrokController.h; sourceTree = "<group>"; };
+		C2B7BFE71BC8B350007D4533 /* ShwanMoreWrokController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMoreWrokController.m; sourceTree = "<group>"; };
+		C2B7BFE91BC8B376007D4533 /* ShwanMoreCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMoreCaseController.h; sourceTree = "<group>"; };
+		C2B7BFEA1BC8B376007D4533 /* ShwanMoreCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMoreCaseController.m; sourceTree = "<group>"; };
 		C2C3CA811BC615C800654CE9 /* LYCBrideSayHeadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadHelper.h; sourceTree = "<group>"; };
 		C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadHelper.m; sourceTree = "<group>"; };
 		C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadItem.h; sourceTree = "<group>"; };
@@ -466,6 +487,8 @@
 				C230098D1BC7CD6200C9B627 /* ShwanWeddingCell.m */,
 				C23009921BC7F07900C9B627 /* ShwanWeddCell.h */,
 				C23009931BC7F07900C9B627 /* ShwanWeddCell.m */,
+				C23064F01BC8BBC8002DCA92 /* ShwanMoreCell.h */,
+				C23064F11BC8BBC8002DCA92 /* ShwanMoreCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -508,6 +531,10 @@
 				C23009841BC798FD00C9B627 /* Shwanmerchant.m */,
 				C23009891BC7C97C00C9B627 /* ShwanModleWeddingdress.h */,
 				C230098A1BC7C97C00C9B627 /* ShwanModleWeddingdress.m */,
+				C23064F31BC8BCAC002DCA92 /* ShwanMoreModle.h */,
+				C23064F41BC8BCAC002DCA92 /* ShwanMoreModle.m */,
+				C23064F61BC8C84F002DCA92 /* ShwanMoreComoModle.h */,
+				C23064F71BC8C84F002DCA92 /* ShwanMoreComoModle.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -562,6 +589,14 @@
 				C2795FEC1BC662BA00325548 /* ShwanTwoController.m */,
 				C2795FEE1BC662C800325548 /* ShwanThreeController.h */,
 				C2795FEF1BC662C800325548 /* ShwanThreeController.m */,
+				C2B7BFE31BC8B167007D4533 /* ShwanWeddingMoreController.h */,
+				C2B7BFE41BC8B167007D4533 /* ShwanWeddingMoreController.m */,
+				C2B7BFE61BC8B350007D4533 /* ShwanMoreWrokController.h */,
+				C2B7BFE71BC8B350007D4533 /* ShwanMoreWrokController.m */,
+				C2B7BFE91BC8B376007D4533 /* ShwanMoreCaseController.h */,
+				C2B7BFEA1BC8B376007D4533 /* ShwanMoreCaseController.m */,
+				C23064F91BC8E4A8002DCA92 /* ShwanMarriageController.h */,
+				C23064FA1BC8E4A8002DCA92 /* ShwanMarriageController.m */,
 				C2F56E2A1BC536DE00FB0A9B /* YLTMyController.h */,
 				C2F56E2B1BC536DE00FB0A9B /* YLTMyController.m */,
 				C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */,
@@ -729,11 +764,14 @@
 			files = (
 				C2F56DBE1BC4BDD900FB0A9B /* AppDelegate.m in Sources */,
 				C29048531BC6090900706772 /* LYCBrideSayFirstCell.m in Sources */,
+				C23064FB1BC8E4A8002DCA92 /* ShwanMarriageController.m in Sources */,
+				C23064F81BC8C84F002DCA92 /* ShwanMoreComoModle.m in Sources */,
 				C29048501BC608E600706772 /* ThreeSectionCell.m in Sources */,
 				C29048371BC6073E00706772 /* UIButton+WebCache.m in Sources */,
 				C29048351BC6073E00706772 /* SDWebImageManager.m in Sources */,
 				C29048071BC6072100706772 /* LYCBrideSayController.m in Sources */,
 				C290482D1BC6073E00706772 /* CarouselFingure.m in Sources */,
+				C2B7BFE81BC8B350007D4533 /* ShwanMoreWrokController.m in Sources */,
 				C23009941BC7F07900C9B627 /* ShwanWeddCell.m in Sources */,
 				C20DF77C1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m in Sources */,
 				C29048081BC6072100706772 /* ShwanClassificationController.m in Sources */,
@@ -743,10 +781,12 @@
 				C2795FF01BC662C800325548 /* ShwanThreeController.m in Sources */,
 				C2F56DDF1BC4C4D900FB0A9B /* RootViewController.m in Sources */,
 				C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */,
+				C2B7BFE51BC8B167007D4533 /* ShwanWeddingMoreController.m in Sources */,
 				C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */,
 				C2795FED1BC662BA00325548 /* ShwanTwoController.m in Sources */,
 				C23009801BC777C200C9B627 /* ShwanComboModle.m in Sources */,
 				C290483D1BC6073E00706772 /* UIView+WebCacheOperation.m in Sources */,
+				C23064F21BC8BBC8002DCA92 /* ShwanMoreCell.m in Sources */,
 				C230098E1BC7CD6200C9B627 /* ShwanWeddingCell.m in Sources */,
 				C2F56D911BC4BC7300FB0A9B /* main.m in Sources */,
 				C230097D1BC776F100C9B627 /* ShwanComboViewCell.m in Sources */,
@@ -762,11 +802,13 @@
 				C29048341BC6073E00706772 /* SDWebImageDownloaderOperation.m in Sources */,
 				C2F56E2C1BC536DE00FB0A9B /* YLTMyController.m in Sources */,
 				C290483B1BC6073E00706772 /* UIImageView+HighlightedWebCache.m in Sources */,
+				C2B7BFEB1BC8B376007D4533 /* ShwanMoreCaseController.m in Sources */,
 				C2F56DC11BC4BF6800FB0A9B /* ViewController1.m in Sources */,
 				C2795FE71BC661E800325548 /* ShwanViewController.m in Sources */,
 				C290484E1BC608E600706772 /* OneSectionCollectionCell.m in Sources */,
 				C2F56E221BC5365900FB0A9B /* YLTMyHeaderView.m in Sources */,
 				C290482F1BC6073E00706772 /* NSData+ImageContentType.m in Sources */,
+				C23064F51BC8BCAC002DCA92 /* ShwanMoreModle.m in Sources */,
 				C29048551BC6091D00706772 /* LYCBrideSaySecondCell.m in Sources */,
 				C230098B1BC7C97C00C9B627 /* ShwanModleWeddingdress.m in Sources */,
 				C29047F91BC606F300706772 /* SHwanModle.m in Sources */,
