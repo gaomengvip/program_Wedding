@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2329845FFAB6D210F012D62E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCFDA029E7A565241DF361 /* libPods.a */; };
+		C20DF77C1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */; settings = {ASSET_TAGS = (); }; };
+		C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */; settings = {ASSET_TAGS = (); }; };
+		C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */; settings = {ASSET_TAGS = (); }; };
+		C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */; settings = {ASSET_TAGS = (); }; };
 		C230097D1BC776F100C9B627 /* ShwanComboViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C230097C1BC776F100C9B627 /* ShwanComboViewCell.m */; };
 		C23009801BC777C200C9B627 /* ShwanComboModle.m in Sources */ = {isa = PBXBuildFile; fileRef = C230097F1BC777C200C9B627 /* ShwanComboModle.m */; };
 		C23009821BC7923A00C9B627 /* QQ20151009-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */; };
@@ -17,10 +21,6 @@
 		C230098E1BC7CD6200C9B627 /* ShwanWeddingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C230098D1BC7CD6200C9B627 /* ShwanWeddingCell.m */; };
 		C23009911BC7E09800C9B627 /* ShwanWeddingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009901BC7E09800C9B627 /* ShwanWeddingController.m */; };
 		C23009941BC7F07900C9B627 /* ShwanWeddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23009931BC7F07900C9B627 /* ShwanWeddCell.m */; };
-		C20DF77C1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */; settings = {ASSET_TAGS = (); }; };
-		C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C20DF7811BC7928600DA89F6 /* LYCBrideSayThirdCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */; settings = {ASSET_TAGS = (); }; };
-		C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */; settings = {ASSET_TAGS = (); }; };
 		C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */; };
 		C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */; };
@@ -97,11 +97,17 @@
 
 /* Begin PBXFileReference section */
 		768FCE94DE073BDDEFD607F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C20DF7791BC78E0900DA89F6 /* LYCBrideSayThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayThirdCell.h; sourceTree = "<group>"; };
+		C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayThirdCell.m; sourceTree = "<group>"; };
+		C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayThirdCell.xib; sourceTree = "<group>"; };
+		C20DF77E1BC7928600DA89F6 /* LYCBrideSayThirdCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayThirdCell2.h; sourceTree = "<group>"; };
+		C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayThirdCell2.m; sourceTree = "<group>"; };
+		C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayThirdCell2.xib; sourceTree = "<group>"; };
 		C230097B1BC776F100C9B627 /* ShwanComboViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanComboViewCell.h; sourceTree = "<group>"; };
 		C230097C1BC776F100C9B627 /* ShwanComboViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanComboViewCell.m; sourceTree = "<group>"; };
 		C230097E1BC777C200C9B627 /* ShwanComboModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanComboModle.h; sourceTree = "<group>"; };
 		C230097F1BC777C200C9B627 /* ShwanComboModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanComboModle.m; sourceTree = "<group>"; };
-		C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20151009-2@2x.png"; sourceTree = "<group>"; };
+		C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "QQ20151009-2@2x.png"; path = "../../Resources/QQ20151009-2@2x.png"; sourceTree = "<group>"; };
 		C23009831BC798FD00C9B627 /* Shwanmerchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shwanmerchant.h; sourceTree = "<group>"; };
 		C23009841BC798FD00C9B627 /* Shwanmerchant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shwanmerchant.m; sourceTree = "<group>"; };
 		C23009861BC7AA6200C9B627 /* ShwanMerchantsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMerchantsCell.h; sourceTree = "<group>"; };
@@ -114,12 +120,6 @@
 		C23009901BC7E09800C9B627 /* ShwanWeddingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanWeddingController.m; sourceTree = "<group>"; };
 		C23009921BC7F07900C9B627 /* ShwanWeddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanWeddCell.h; sourceTree = "<group>"; };
 		C23009931BC7F07900C9B627 /* ShwanWeddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanWeddCell.m; sourceTree = "<group>"; };
-		C20DF7791BC78E0900DA89F6 /* LYCBrideSayThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayThirdCell.h; sourceTree = "<group>"; };
-		C20DF77A1BC78E0900DA89F6 /* LYCBrideSayThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayThirdCell.m; sourceTree = "<group>"; };
-		C20DF77B1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayThirdCell.xib; sourceTree = "<group>"; };
-		C20DF77E1BC7928600DA89F6 /* LYCBrideSayThirdCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayThirdCell2.h; sourceTree = "<group>"; };
-		C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayThirdCell2.m; sourceTree = "<group>"; };
-		C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCBrideSayThirdCell2.xib; sourceTree = "<group>"; };
 		C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadDetailControllerViewController.h; sourceTree = "<group>"; };
 		C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadDetailControllerViewController.m; sourceTree = "<group>"; };
 		C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-sanjiao.png"; sourceTree = "<group>"; };
@@ -517,7 +517,6 @@
 		C2F56DB91BC4BDD900FB0A9B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */,
 				C2795FFA1BC67B0200325548 /* iconfont-starton-1.png */,
 				C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */,
 				C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */,
@@ -549,6 +548,7 @@
 		C2F56DBC1BC4BDD900FB0A9B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C23009811BC7923A00C9B627 /* QQ20151009-2@2x.png */,
 				C29048401BC6088000706772 /* HomePageController.h */,
 				C29048411BC6088000706772 /* HomePageController.m */,
 				C29048021BC6072100706772 /* LYCBrideSayController.h */,
@@ -784,7 +784,6 @@
 				C2795FEA1BC662A700325548 /* ShwanOneController.m in Sources */,
 				C29048321BC6073E00706772 /* SDWebImageDecoder.m in Sources */,
 				C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */,
-				C29047FF1BC6070800706772 /* LYCHeader4BrideSayFirstView.m in Sources */,
 				C23009911BC7E09800C9B627 /* ShwanWeddingController.m in Sources */,
 				C29048361BC6073E00706772 /* SDWebImagePrefetcher.m in Sources */,
 				C290482E1BC6073E00706772 /* MKAnnotationView+WebCache.m in Sources */,
