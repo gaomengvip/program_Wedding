@@ -7,31 +7,83 @@
 //
 
 #import "ShwanOneController.h"
-
-@interface ShwanOneController ()
-
+#import "ShwanComboModle.h"
+#import "ShwanComboViewCell.h"
+#import "ShwanHandShare.h"
+@interface ShwanOneController ()<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,strong)UITableView * tableView;
 @end
 
 @implementation ShwanOneController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor blueColor];
+   
+    
+    _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 60, self.view.frame.size.width, self.view.frame.size.height-60) style:UITableViewStylePlain];
+    
+    
+    _tableView.dataSource=self;
+    
+    _tableView.delegate=self;
+    
+    [self.tableView registerClass:[ShwanComboViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    [self.view addSubview:_tableView];
+    
+    
+    
+    [[ShwanHandShare share]setWithComboNumber:self.Mynumber URL:^{
+        [self.tableView reloadData];
+    }];
+
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    
+    
+    
+    
+    
+    return 1;
+    
+    
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    
+    return [ShwanHandShare share].comboArray.count;
+    
 }
-*/
+
+
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    ShwanComboViewCell * cell =[tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    
+   ShwanComboModle * modle =[ShwanHandShare share].comboArray[indexPath.row];
+    
+    
+    cell.modle=modle;
+    
+    return cell;
+    
+    
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    
+    
+    return 280;
+    
+}
+
 
 @end

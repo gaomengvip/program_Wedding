@@ -14,7 +14,7 @@
 
 @property(nonatomic,strong)UITableView * tableView;
 
-@property(nonatomic,strong)NSMutableArray * array;
+
 
 
 
@@ -41,9 +41,13 @@
     
 
     
-    [[ShwanHandShare share]setWithNumber:@"6" URL:^{
+    [[ShwanHandShare share]setWithNumber:self.Mynumber URL:^{
         
         [self.tableView reloadData];
+        
+    }];
+    
+    [[ShwanHandShare share]setWithComboNumber:self.Mynumber URL:^{
         
     }];
     
