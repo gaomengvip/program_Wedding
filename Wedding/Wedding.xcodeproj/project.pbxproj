@@ -26,6 +26,11 @@
 		C23064FB1BC8E4A8002DCA92 /* ShwanMarriageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23064FA1BC8E4A8002DCA92 /* ShwanMarriageController.m */; };
 		C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */; };
 		C24256391BC89BE4008B5BD5 /* LYC.png in Resources */ = {isa = PBXBuildFile; fileRef = C24256381BC89BE4008B5BD5 /* LYC.png */; };
+		C24E57D41BC8F4880006F447 /* YLTMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E57CE1BC8F4880006F447 /* YLTMyController.m */; };
+		C24E57E11BC8F7360006F447 /* YLTMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E57DC1BC8F7360006F447 /* YLTMyCell.m */; };
+		C24E57E21BC8F7360006F447 /* YLTMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24E57DD1BC8F7360006F447 /* YLTMyCell.xib */; };
+		C24E57E31BC8F7360006F447 /* YLTMyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E57DF1BC8F7360006F447 /* YLTMyHeaderView.m */; };
+		C24E57E41BC8F7360006F447 /* YLTMyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24E57E01BC8F7360006F447 /* YLTMyHeaderView.xib */; };
 		C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */; };
 		C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */; };
 		C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2795FE31BC63C4300325548 /* ShwanClassificationCell.m */; };
@@ -73,6 +78,8 @@
 		C2B7BFE51BC8B167007D4533 /* ShwanWeddingMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7BFE41BC8B167007D4533 /* ShwanWeddingMoreController.m */; };
 		C2B7BFE81BC8B350007D4533 /* ShwanMoreWrokController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7BFE71BC8B350007D4533 /* ShwanMoreWrokController.m */; };
 		C2B7BFEB1BC8B376007D4533 /* ShwanMoreCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7BFEA1BC8B376007D4533 /* ShwanMoreCaseController.m */; };
+		C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */; };
+		C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */; };
 		C2CB98361BC768EB0056935A /* YLTToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB98351BC768EB0056935A /* YLTToolController.m */; };
 		C2CB983B1BC7699B0056935A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2CB98371BC7699B0056935A /* 2.png */; };
 		C2CB983C1BC7699B0056935A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2CB98381BC7699B0056935A /* 1.png */; };
@@ -108,8 +115,6 @@
 		C2D3DEAF1BC8B0EE00D81640 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D3DEAD1BC8B0EE00D81640 /* 11.png */; };
 		C2D3DEB31BC8BB7900D81640 /* ResignController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D3DEB11BC8BB7900D81640 /* ResignController.m */; };
 		C2D3DEB41BC8BB7900D81640 /* ResignController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D3DEB21BC8BB7900D81640 /* ResignController.xib */; };
-		C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */; };
-		C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */; };
 		C2F56D911BC4BC7300FB0A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56D901BC4BC7300FB0A9B /* main.m */; };
 		C2F56D961BC4BC7300FB0A9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D951BC4BC7300FB0A9B /* Images.xcassets */; };
 		C2F56D991BC4BC7300FB0A9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F56D971BC4BC7300FB0A9B /* LaunchScreen.xib */; };
@@ -118,11 +123,6 @@
 		C2F56DC11BC4BF6800FB0A9B /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56DC01BC4BF6800FB0A9B /* ViewController1.m */; };
 		C2F56DC71BC4BF9900FB0A9B /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56DC61BC4BF9900FB0A9B /* ViewController3.m */; };
 		C2F56DDF1BC4C4D900FB0A9B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56DDE1BC4C4D900FB0A9B /* RootViewController.m */; };
-		C2F56E1A1BC5360000FB0A9B /* YLTMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56E181BC5360000FB0A9B /* YLTMyCell.m */; };
-		C2F56E1B1BC5360000FB0A9B /* YLTMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F56E191BC5360000FB0A9B /* YLTMyCell.xib */; };
-		C2F56E221BC5365900FB0A9B /* YLTMyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56E201BC5365900FB0A9B /* YLTMyHeaderView.m */; };
-		C2F56E231BC5365900FB0A9B /* YLTMyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F56E211BC5365900FB0A9B /* YLTMyHeaderView.xib */; };
-		C2F56E2C1BC536DE00FB0A9B /* YLTMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F56E2B1BC536DE00FB0A9B /* YLTMyController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +170,14 @@
 		C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadDetailControllerViewController.h; sourceTree = "<group>"; };
 		C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadDetailControllerViewController.m; sourceTree = "<group>"; };
 		C24256381BC89BE4008B5BD5 /* LYC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LYC.png; sourceTree = "<group>"; };
+		C24E57CD1BC8F4880006F447 /* YLTMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTMyController.h; sourceTree = "<group>"; };
+		C24E57CE1BC8F4880006F447 /* YLTMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTMyController.m; sourceTree = "<group>"; };
+		C24E57DB1BC8F7360006F447 /* YLTMyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTMyCell.h; sourceTree = "<group>"; };
+		C24E57DC1BC8F7360006F447 /* YLTMyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTMyCell.m; sourceTree = "<group>"; };
+		C24E57DD1BC8F7360006F447 /* YLTMyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLTMyCell.xib; sourceTree = "<group>"; };
+		C24E57DE1BC8F7360006F447 /* YLTMyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTMyHeaderView.h; sourceTree = "<group>"; };
+		C24E57DF1BC8F7360006F447 /* YLTMyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTMyHeaderView.m; sourceTree = "<group>"; };
+		C24E57E01BC8F7360006F447 /* YLTMyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLTMyHeaderView.xib; sourceTree = "<group>"; };
 		C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-sanjiao.png"; sourceTree = "<group>"; };
 		C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shangsanjiao.png"; sourceTree = "<group>"; };
 		C2795FE21BC63C4300325548 /* ShwanClassificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanClassificationCell.h; sourceTree = "<group>"; };
@@ -257,6 +265,10 @@
 		C2B7BFE71BC8B350007D4533 /* ShwanMoreWrokController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMoreWrokController.m; sourceTree = "<group>"; };
 		C2B7BFE91BC8B376007D4533 /* ShwanMoreCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShwanMoreCaseController.h; sourceTree = "<group>"; };
 		C2B7BFEA1BC8B376007D4533 /* ShwanMoreCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShwanMoreCaseController.m; sourceTree = "<group>"; };
+		C2C3CA811BC615C800654CE9 /* LYCBrideSayHeadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadHelper.h; sourceTree = "<group>"; };
+		C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadHelper.m; sourceTree = "<group>"; };
+		C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadItem.h; sourceTree = "<group>"; };
+		C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadItem.m; sourceTree = "<group>"; };
 		C2CB98341BC768EB0056935A /* YLTToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTToolController.h; sourceTree = "<group>"; };
 		C2CB98351BC768EB0056935A /* YLTToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTToolController.m; sourceTree = "<group>"; };
 		C2CB98371BC7699B0056935A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -300,11 +312,6 @@
 		C2D3DEB01BC8BB7900D81640 /* ResignController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResignController.h; sourceTree = "<group>"; };
 		C2D3DEB11BC8BB7900D81640 /* ResignController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResignController.m; sourceTree = "<group>"; };
 		C2D3DEB21BC8BB7900D81640 /* ResignController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResignController.xib; sourceTree = "<group>"; };
-
-		C2C3CA811BC615C800654CE9 /* LYCBrideSayHeadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadHelper.h; sourceTree = "<group>"; };
-		C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadHelper.m; sourceTree = "<group>"; };
-		C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadItem.h; sourceTree = "<group>"; };
-		C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadItem.m; sourceTree = "<group>"; };
 		C2F56D8B1BC4BC7300FB0A9B /* Wedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F56D8F1BC4BC7300FB0A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F56D901BC4BC7300FB0A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -323,14 +330,6 @@
 		C2F56DDE1BC4C4D900FB0A9B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		C2F56DE01BC4CB3E00FB0A9B /* URLs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLs.h; sourceTree = "<group>"; };
 		C2F56DE11BC4CBB700FB0A9B /* CenturyWedding.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenturyWedding.pch; sourceTree = "<group>"; };
-		C2F56E171BC5360000FB0A9B /* YLTMyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLTMyCell.h; path = ../../../../../General/View/Cells/YLTMyCell.h; sourceTree = "<group>"; };
-		C2F56E181BC5360000FB0A9B /* YLTMyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLTMyCell.m; path = ../../../../../General/View/Cells/YLTMyCell.m; sourceTree = "<group>"; };
-		C2F56E191BC5360000FB0A9B /* YLTMyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YLTMyCell.xib; path = ../../../../../General/View/Cells/YLTMyCell.xib; sourceTree = "<group>"; };
-		C2F56E1F1BC5365900FB0A9B /* YLTMyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLTMyHeaderView.h; path = ../../../../../General/View/Cells/YLTMyHeaderView.h; sourceTree = "<group>"; };
-		C2F56E201BC5365900FB0A9B /* YLTMyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLTMyHeaderView.m; path = ../../../../../General/View/Cells/YLTMyHeaderView.m; sourceTree = "<group>"; };
-		C2F56E211BC5365900FB0A9B /* YLTMyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YLTMyHeaderView.xib; path = ../../../../../General/View/Cells/YLTMyHeaderView.xib; sourceTree = "<group>"; };
-		C2F56E2A1BC536DE00FB0A9B /* YLTMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLTMyController.h; path = ../../YLTMyController.h; sourceTree = "<group>"; };
-		C2F56E2B1BC536DE00FB0A9B /* YLTMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLTMyController.m; path = ../../YLTMyController.m; sourceTree = "<group>"; };
 		D5FCFDA029E7A565241DF361 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD207AD06B0D84923964B00B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -369,6 +368,21 @@
 				D5FCFDA029E7A565241DF361 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C24E57D71BC8F5BB0006F447 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C24E57D81BC8F5BB0006F447 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C24E57D81BC8F5BB0006F447 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		C290480B1BC6073E00706772 /* SDWebImage */ = {
@@ -444,9 +458,9 @@
 		C2D3DE781BC89E2900D81640 /* My */ = {
 			isa = PBXGroup;
 			children = (
+				C24E57D71BC8F5BB0006F447 /* View */,
 				C2D3DE791BC89E2900D81640 /* Controller */,
 				C2D3DE7A1BC89E2900D81640 /* Model */,
-				C2D3DE7B1BC89E2900D81640 /* View */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -454,8 +468,14 @@
 		C2D3DE791BC89E2900D81640 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C2F56E2A1BC536DE00FB0A9B /* YLTMyController.h */,
-				C2F56E2B1BC536DE00FB0A9B /* YLTMyController.m */,
+				C24E57DB1BC8F7360006F447 /* YLTMyCell.h */,
+				C24E57DC1BC8F7360006F447 /* YLTMyCell.m */,
+				C24E57DD1BC8F7360006F447 /* YLTMyCell.xib */,
+				C24E57DE1BC8F7360006F447 /* YLTMyHeaderView.h */,
+				C24E57DF1BC8F7360006F447 /* YLTMyHeaderView.m */,
+				C24E57E01BC8F7360006F447 /* YLTMyHeaderView.xib */,
+				C24E57CD1BC8F4880006F447 /* YLTMyController.h */,
+				C24E57CE1BC8F4880006F447 /* YLTMyController.m */,
 				C2D3DE8E1BC8AF1C00D81640 /* EditController.h */,
 				C2D3DE8F1BC8AF1C00D81640 /* EditController.m */,
 				C2D3DE911BC8AF6900D81640 /* LoginController.h */,
@@ -473,27 +493,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		C2D3DE7B1BC89E2900D81640 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C2D3DE7F1BC8A09300D81640 /* Cell */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C2D3DE7F1BC8A09300D81640 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				C2F56E171BC5360000FB0A9B /* YLTMyCell.h */,
-				C2F56E181BC5360000FB0A9B /* YLTMyCell.m */,
-				C2F56E191BC5360000FB0A9B /* YLTMyCell.xib */,
-				C2F56E1F1BC5365900FB0A9B /* YLTMyHeaderView.h */,
-				C2F56E201BC5365900FB0A9B /* YLTMyHeaderView.m */,
-				C2F56E211BC5365900FB0A9B /* YLTMyHeaderView.xib */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		C2D3DE851BC8A20200D81640 /* View */ = {
@@ -648,12 +647,6 @@
 				C20DF77E1BC7928600DA89F6 /* LYCBrideSayThirdCell2.h */,
 				C20DF77F1BC7928600DA89F6 /* LYCBrideSayThirdCell2.m */,
 				C20DF7801BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib */,
-				C2F56E171BC5360000FB0A9B /* YLTMyCell.h */,
-				C2F56E181BC5360000FB0A9B /* YLTMyCell.m */,
-				C2F56E191BC5360000FB0A9B /* YLTMyCell.xib */,
-				C2F56E1F1BC5365900FB0A9B /* YLTMyHeaderView.h */,
-				C2F56E201BC5365900FB0A9B /* YLTMyHeaderView.m */,
-				C2F56E211BC5365900FB0A9B /* YLTMyHeaderView.xib */,
 				C2795FE21BC63C4300325548 /* ShwanClassificationCell.h */,
 				C2795FE31BC63C4300325548 /* ShwanClassificationCell.m */,
 				C2795FF71BC677AD00325548 /* ShwanPackerCellTableViewCell.h */,
@@ -802,8 +795,6 @@
 				C2CB98351BC768EB0056935A /* YLTToolController.m */,
 				C2CB98511BC7AF6A0056935A /* Production */,
 				C2D3DE781BC89E2900D81640 /* My */,
-				C2F56E2A1BC536DE00FB0A9B /* YLTMyController.h */,
-				C2F56E2B1BC536DE00FB0A9B /* YLTMyController.m */,
 				C23F3A371BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.h */,
 				C23F3A381BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m */,
 			);
@@ -909,6 +900,7 @@
 				C290484F1BC608E600706772 /* OneSectionCollectionCell.xib in Resources */,
 				C2D3DEA21BC8B06800D81640 /* my11.png in Resources */,
 				C20DF77D1BC78E0900DA89F6 /* LYCBrideSayThirdCell.xib in Resources */,
+				C24E57E41BC8F7360006F447 /* YLTMyHeaderView.xib in Resources */,
 				C290484F1BC608E600706772 /* OneSectionCollectionCell.xib in Resources */,
 				C20DF7821BC7928600DA89F6 /* LYCBrideSayThirdCell2.xib in Resources */,
 				C2795FDF1BC612ED00325548 /* iconfont-sanjiao.png in Resources */,
@@ -920,7 +912,6 @@
 				C2D3DEA51BC8B06800D81640 /* my1.png in Resources */,
 				C2D3DEAB1BC8B06800D81640 /* my8.png in Resources */,
 				C2D3DE8D1BC8A3B900D81640 /* my.png in Resources */,
-				C2F56E1B1BC5360000FB0A9B /* YLTMyCell.xib in Resources */,
 				C2795FE11BC612F700325548 /* iconfont-shangsanjiao.png in Resources */,
 				C290484D1BC608E600706772 /* BannerCell.xib in Resources */,
 				C2D3DEA11BC8B06800D81640 /* my3.png in Resources */,
@@ -928,6 +919,7 @@
 				C29047ED1BC606E100706772 /* LYCBrideSayFirstCell.xib in Resources */,
 				C2D3DEA71BC8B06800D81640 /* my2.png in Resources */,
 				C2D3DEAA1BC8B06800D81640 /* my5.png in Resources */,
+				C24E57E21BC8F7360006F447 /* YLTMyCell.xib in Resources */,
 				C2CB983E1BC7699B0056935A /* 3.png in Resources */,
 				C2D3DE8B1BC8A20200D81640 /* ProductionCell.xib in Resources */,
 				C2CB98501BC7A1F10056935A /* 6.png in Resources */,
@@ -938,7 +930,6 @@
 				C24256391BC89BE4008B5BD5 /* LYC.png in Resources */,
 				C2F56D961BC4BC7300FB0A9B /* Images.xcassets in Resources */,
 				C2CB984A1BC79A3A0056935A /* Production1.png in Resources */,
-				C2F56E231BC5365900FB0A9B /* YLTMyHeaderView.xib in Resources */,
 				C2CB985C1BC7C51F0056935A /* Production3.png in Resources */,
 				C2D3DEB41BC8BB7900D81640 /* ResignController.xib in Resources */,
 				C2D3DE951BC8AF6900D81640 /* LoginController.xib in Resources */,
@@ -1010,6 +1001,7 @@
 				C29048081BC6072100706772 /* ShwanClassificationController.m in Sources */,
 				C29048331BC6073E00706772 /* SDWebImageDownloader.m in Sources */,
 				C29048311BC6073E00706772 /* SDWebImageCompat.m in Sources */,
+				C24E57E31BC8F7360006F447 /* YLTMyHeaderView.m in Sources */,
 				C2795FF01BC662C800325548 /* ShwanThreeController.m in Sources */,
 				C2F56DDF1BC4C4D900FB0A9B /* RootViewController.m in Sources */,
 				C2C3CA861BC6160D00654CE9 /* LYCBrideSayHeadItem.m in Sources */,
@@ -1023,6 +1015,7 @@
 				C2F56D911BC4BC7300FB0A9B /* main.m in Sources */,
 				C230097D1BC776F100C9B627 /* ShwanComboViewCell.m in Sources */,
 				C2795FF31BC6673900325548 /* ShwanpackageModle.m in Sources */,
+				C24E57D41BC8F4880006F447 /* YLTMyController.m in Sources */,
 				C29048601BC60AE500706772 /* headerView4HomePage.m in Sources */,
 				C29047F81BC606F300706772 /* Model4HomePage.m in Sources */,
 				C23F3A391BC7F5AD0024D2E0 /* LYCBrideSayHeadDetailControllerViewController.m in Sources */,
@@ -1032,7 +1025,6 @@
 				C29048301BC6073E00706772 /* SDImageCache.m in Sources */,
 				C29048391BC6073E00706772 /* UIImage+MultiFormat.m in Sources */,
 				C29048341BC6073E00706772 /* SDWebImageDownloaderOperation.m in Sources */,
-				C2F56E2C1BC536DE00FB0A9B /* YLTMyController.m in Sources */,
 				C290483B1BC6073E00706772 /* UIImageView+HighlightedWebCache.m in Sources */,
 				C2B7BFEB1BC8B376007D4533 /* ShwanMoreCaseController.m in Sources */,
 				C2F56DC11BC4BF6800FB0A9B /* ViewController1.m in Sources */,
@@ -1040,7 +1032,6 @@
 				C2CB98361BC768EB0056935A /* YLTToolController.m in Sources */,
 				C290484E1BC608E600706772 /* OneSectionCollectionCell.m in Sources */,
 				C2CB98571BC7AFB20056935A /* ProductionModel.m in Sources */,
-				C2F56E221BC5365900FB0A9B /* YLTMyHeaderView.m in Sources */,
 				C290482F1BC6073E00706772 /* NSData+ImageContentType.m in Sources */,
 				C23064F51BC8BCAC002DCA92 /* ShwanMoreModle.m in Sources */,
 				C29048551BC6091D00706772 /* LYCBrideSaySecondCell.m in Sources */,
@@ -1052,12 +1043,12 @@
 				C2C3CA831BC615C800654CE9 /* LYCBrideSayHeadHelper.m in Sources */,
 				C290484C1BC608E600706772 /* BannerCell.m in Sources */,
 				C23009881BC7AA6200C9B627 /* ShwanMerchantsCell.m in Sources */,
+				C24E57E11BC8F7360006F447 /* YLTMyCell.m in Sources */,
 				C2795FF91BC677AD00325548 /* ShwanPackerCellTableViewCell.m in Sources */,
 				C23009851BC798FD00C9B627 /* Shwanmerchant.m in Sources */,
 				C2795FEA1BC662A700325548 /* ShwanOneController.m in Sources */,
 				C29048321BC6073E00706772 /* SDWebImageDecoder.m in Sources */,
 				C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */,
-				C29047FF1BC6070800706772 /* LYCHeader4BrideSayFirstView.m in Sources */,
 				C2D3DE8A1BC8A20200D81640 /* ProductionCell.m in Sources */,
 				C2D3DE941BC8AF6900D81640 /* LoginController.m in Sources */,
 				C23009911BC7E09800C9B627 /* ShwanWeddingController.m in Sources */,
@@ -1066,7 +1057,6 @@
 				C2CB98431BC795F00056935A /* ProductionController.m in Sources */,
 				C290482E1BC6073E00706772 /* MKAnnotationView+WebCache.m in Sources */,
 				C29048381BC6073E00706772 /* UIImage+GIF.m in Sources */,
-				C2F56E1A1BC5360000FB0A9B /* YLTMyCell.m in Sources */,
 				C2D3DEB31BC8BB7900D81640 /* ResignController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
