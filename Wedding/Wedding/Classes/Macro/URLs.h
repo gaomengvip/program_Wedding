@@ -29,4 +29,12 @@
 #pragma mark -- 新娘说第二区cell --
 #define kLYCBrideSaySectionTwo @"http://hunliji.com/p/wedding/index.php/Home/APICommunityGroup/GroupsList?cids=1"
 
+
+
+
+
+
+
+
+
 #endif

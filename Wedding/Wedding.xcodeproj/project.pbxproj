@@ -181,7 +181,7 @@
 		C2C3CA821BC615C800654CE9 /* LYCBrideSayHeadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadHelper.m; sourceTree = "<group>"; };
 		C2C3CA841BC6160D00654CE9 /* LYCBrideSayHeadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCBrideSayHeadItem.h; sourceTree = "<group>"; };
 		C2C3CA851BC6160D00654CE9 /* LYCBrideSayHeadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCBrideSayHeadItem.m; sourceTree = "<group>"; };
-		C2C3CA871BC6189500654CE9 /* LYC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LYC.png; sourceTree = "<group>"; };
+		C2C3CA871BC6189500654CE9 /* LYC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LYC.png; path = ../Sences/ViewController/LYC.png; sourceTree = "<group>"; };
 		C2F56D8B1BC4BC7300FB0A9B /* Wedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F56D8F1BC4BC7300FB0A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F56D901BC4BC7300FB0A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -480,6 +480,7 @@
 				C2795FFA1BC67B0200325548 /* iconfont-starton-1.png */,
 				C2795FDE1BC612ED00325548 /* iconfont-sanjiao.png */,
 				C2795FE01BC612F700325548 /* iconfont-shangsanjiao.png */,
+				C2C3CA871BC6189500654CE9 /* LYC.png */,
 				C2F56DCE1BC4BFB900FB0A9B /* ViewController6.h */,
 				C2F56DCF1BC4BFB900FB0A9B /* ViewController6.m */,
 			);
@@ -511,7 +512,6 @@
 				C29048411BC6088000706772 /* HomePageController.m */,
 				C29048021BC6072100706772 /* LYCBrideSayController.h */,
 				C29048031BC6072100706772 /* LYCBrideSayController.m */,
-				C2C3CA871BC6189500654CE9 /* LYC.png */,
 				C29048041BC6072100706772 /* ShwanClassificationController.h */,
 				C29048051BC6072100706772 /* ShwanClassificationController.m */,
 				C2795FE51BC661E800325548 /* ShwanViewController.h */,
@@ -733,7 +733,6 @@
 				C2795FEA1BC662A700325548 /* ShwanOneController.m in Sources */,
 				C29048321BC6073E00706772 /* SDWebImageDecoder.m in Sources */,
 				C2795FE41BC63C4300325548 /* ShwanClassificationCell.m in Sources */,
-				C29047FF1BC6070800706772 /* LYCHeader4BrideSayFirstView.m in Sources */,
 				C29048361BC6073E00706772 /* SDWebImagePrefetcher.m in Sources */,
 				C290482E1BC6073E00706772 /* MKAnnotationView+WebCache.m in Sources */,
 				C29048381BC6073E00706772 /* UIImage+GIF.m in Sources */,
@@ -860,7 +859,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
 				INFOPLIST_FILE = Wedding/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -874,7 +872,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Wedding/CenturyWedding.pch;
 				INFOPLIST_FILE = Wedding/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

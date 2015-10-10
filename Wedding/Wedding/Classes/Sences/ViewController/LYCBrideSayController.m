@@ -213,7 +213,11 @@
         if ([array isKindOfClass:[NSNull class]]) {
             cell.lab4name.backgroundColor = [UIColor whiteColor];
         } else {
-            cell.lab4name.backgroundColor = [UIColor colorWithRed: 1.0 * ((int)array[0]/255.0) green:1.0 *((int)array[1]/255.0) blue:1.0 *((int)array[2]/255.0) alpha:0.5];
+        // *********************************************************
+            float r = [array[0] floatValue]/255.0;
+            float g = [array[1] floatValue]/255.0;
+            float b = [array[2] floatValue]/255.0;
+            cell.lab4name.backgroundColor = [UIColor colorWithRed:r green:g blue:b alpha:1];
         }
         
         cell.lab4good_title.text = item.good_title;
@@ -266,7 +270,12 @@
             if ([array isKindOfClass:[NSNull class]]) {
                 cell.lab4name.backgroundColor = [UIColor whiteColor];
             } else {
-                cell.lab4name.backgroundColor = [UIColor colorWithRed: 1.0 * ((int)array[0]/255.0) green:1.0 *((int)array[1]/255.0) blue:1.0 *((int)array[2]/255.0) alpha:0.5];
+                float r = [array[0] floatValue]/255.0;
+                float g = [array[1] floatValue]/255.0;
+                float b = [array[2] floatValue]/255.0;
+                cell.lab4name.backgroundColor = [UIColor colorWithRed:r green:g blue:b alpha:1];
+                
+                
             }
             
             //判断item3.good_title中是否有值
