@@ -70,7 +70,7 @@
     
     
     cell.modle=modle;
-    
+    NSLog(@"==============%@",modle.title);
     return cell;
     
     

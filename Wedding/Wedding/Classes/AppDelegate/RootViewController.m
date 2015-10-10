@@ -10,7 +10,7 @@
 #import "HomePageController.h"
 #import "ShwanClassificationController.h"
 #import "LYCBrideSayController.h"
-#import "YLTMyController.h"
+//#import "YLTMyController.h"
 #import "YLTToolController.h"
 #import "ProductionController.h"
 
@@ -34,7 +34,7 @@
     YLTToolController *toolVC = [[YLTToolController alloc]init];
     UINavigationController *toolNC = [[UINavigationController alloc]initWithRootViewController:toolVC];
     
-    YLTMyController *myVC = [[YLTMyController alloc]init];
+    YLTToolController *myVC = [[YLTToolController alloc]init];
     UINavigationController *myNC = [[UINavigationController alloc]initWithRootViewController:myVC];
     
     

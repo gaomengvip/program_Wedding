@@ -7,7 +7,7 @@
 //
 
 #import "ResignController.h"
-#import "YLTMyController.h"
+//#import "YLTMyController.h"
 
 
 @interface ResignController ()
@@ -48,8 +48,8 @@
 //跳转页面
 - (IBAction)btn4cancel:(id)sender {
     
-    YLTMyController *mycontroller = [[YLTMyController alloc]init];
-    [self.navigationController pushViewController:mycontroller animated:YES];
+//    YLTMyController *mycontroller = [[YLTMyController alloc]init];
+//    [self.navigationController pushViewController:mycontroller animated:YES];
     
     
 }
