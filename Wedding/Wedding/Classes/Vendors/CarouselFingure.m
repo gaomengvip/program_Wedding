@@ -108,12 +108,11 @@
     
     self.timer = nil;
     
-//    if (_imagesArray != imagesArray) {
-//        [_imagesArray release];
-//        _imagesArray = [imagesArray retain];
-//  
-//
-//    }
+    if (_imagesArray != imagesArray) {
+        _imagesArray = [imagesArray mutableCopy];
+  
+
+    }
 
     
     //=========

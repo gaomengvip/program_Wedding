@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ShwanOneController : UIViewController
-
+@property(nonatomic,assign)NSInteger Mynumber;
 @end

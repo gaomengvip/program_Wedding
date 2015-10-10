@@ -10,18 +10,20 @@
 
 @interface ShwanHandShare : NSObject
 @property(nonatomic,strong)NSMutableArray * array;
+@property(nonatomic,strong)NSMutableArray * comboArray;
+@property(nonatomic,strong)NSMutableArray * merchantArray;
 
-@property(nonatomic,strong)NSString* number;
+@property(nonatomic,assign)NSInteger number;
 +(ShwanHandShare*)share;
 
 
--(void)setWithNumber:(NSString*)number URL:(void(^)())blockURL;
+-(void)setWithNumber:(NSInteger)number URL:(void(^)())blockURL;
 
 
+-(void)setWithComboNumber:(NSInteger)number URL:(void(^)())blockURL;
 
 
-
-
+-(void)setWithMerchantNumber:(NSInteger)number URL:(void (^)())blockURL;
 
 
 @end

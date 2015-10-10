@@ -8,12 +8,15 @@
 
 #import "ShwanClassificationController.h"
 #import "SHwanModle.h"
+#import "ShwanModleWeddingdress.h"
 #import "ShwanClassificationCell.h"
 #import "ShwanViewController.h"
 #import "ShwanHandShare.h"
+#import "ShwanWeddingCell.h"
+#import "ShwanWeddingController.h"
 
 
-@interface ShwanClassificationController ()<UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface ShwanClassificationController ()<UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate,UICollectionViewDataSource>
 
 
 
@@ -27,6 +30,11 @@
 @property(nonatomic,strong)UIScrollView * scrollView;
 @property(nonatomic,strong)UITableView * tableView;
 @property(nonatomic,strong)NSMutableArray * modleArray;
+@property(nonatomic,strong)NSMutableArray * weddingDressArray;
+@property(nonatomic,strong)UICollectionView * buttonView;
+@property(nonatomic,strong)UIControl * footer4lable;
+@property(nonatomic,strong)NSMutableArray * imageArray;
+@property(nonatomic,strong)NSMutableArray * titleArray;
 
 
 @end
@@ -34,8 +42,7 @@
 
 static NSString * URL4LocalService = @"http://www.hunliji.com/p/wedding/index.php/home/APIFrontPage/getClass?cid=0";
 
-static NSString * URL4Marriage     = @"http://www.hunliji.com/p/wedding/index.php/home/APIFrontPage/getClass?cid=1";
-
+static NSString * URL4Weddingdress = @"http://hunliji.com/p/wedding/index.php/home/APIFrontPage/getTags";
 @implementation ShwanClassificationController
 
 
@@ -52,6 +59,8 @@ static NSString * URL4Marriage     = @"http://www.hunliji.com/p/wedding/index.ph
         [self CityBUtton];
         [self scrollView];
         [self tableView];
+        [self buttonView];
+        [self footer4lable];
        
     }
 
@@ -79,7 +88,7 @@ static NSString * URL4Marriage     = @"http://www.hunliji.com/p/wedding/index.ph
    
   
     [self modle];
-    
+    [self ShwanModleWeddingdress];
     
     
     
@@ -110,7 +119,7 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
             [modle setValuesForKeysWithDictionary:dic];
             
             [self.modleArray addObject:modle];
-            
+           
           }
         
         
@@ -120,8 +129,93 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
     
    
 }
+
+
+
+
+-(void)ShwanModleWeddingdress{
+
+
+
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        NSURLRequest * request=[NSURLRequest requestWithURL:[NSURL URLWithString:URL4Weddingdress]];
+        
+       [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+            
+            
+            NSDictionary *dict =[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
                 
+                [self.buttonView reloadData];
+            });
+            NSArray*array =dict[@"data"];
+            _weddingDressArray=[NSMutableArray array];
+           _imageArray=[NSMutableArray array];
+           _titleArray=[NSMutableArray array];
+            for (NSDictionary*dic in array) {
+                
+                ShwanModleWeddingdress*modle =[ShwanModleWeddingdress new];
+                [modle setValuesForKeysWithDictionary:dic];
+                
+                [self.weddingDressArray addObject:modle];
+                [self.imageArray addObject:modle.image_path];
+                [self.titleArray addObject:modle.name];
+               
+            }
+            
+           
+        }];
+        
+    });
+
+
+
+
+
+
+}
+
+
+
+
 #pragma mark---------------------懒加载------------------------------------
+-(UIControl*)footer4lable{
+
+    if (_footer4lable==nil) {
+        _footer4lable=[[UIControl alloc]initWithFrame:CGRectMake(0, self.tableView.frame.size.height+self.buttonView.frame.size.height+21, self.scrollView.frame.size.width, 40)];
+        _footer4lable.backgroundColor=[UIColor whiteColor];
+        [_footer4lable addTarget:self action:@selector(control4Action:) forControlEvents:UIControlEventTouchUpInside];
+        [self.scrollView addSubview:_footer4lable];
+           }
+    
+    
+
+    return _footer4lable;
+
+}
+-(UICollectionView*)buttonView{
+
+
+    if (_buttonView ==nil) {
+        
+        UICollectionViewFlowLayout *layout =[[UICollectionViewFlowLayout alloc]init];
+        
+        layout.itemSize=CGSizeMake(self.view.frame.size.width/3, 60);
+        layout.minimumLineSpacing=0;
+        layout.minimumInteritemSpacing=0;
+        layout.sectionInset=UIEdgeInsetsMake(0, 0, 0, 0);
+        _buttonView=[[UICollectionView alloc]initWithFrame:CGRectMake(0, self.tableView.frame.size.height+20, self.view.frame.size.width, 120) collectionViewLayout:layout];
+        self.buttonView.delegate=self;
+        self.buttonView.dataSource=self;
+        [self.buttonView registerClass:[ShwanWeddingCell class] forCellWithReuseIdentifier:@"item"];
+        
+        [self.scrollView addSubview:_buttonView];
+    }
+
+
+    return _buttonView;
+}
 -(UIScrollView*)scrollView{
 
     if (_scrollView==nil) {
@@ -200,7 +294,7 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 
 
     if (_tableView==nil) {
-        _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 10, self.scrollView.frame.size.width, 600)];
+        _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 10, self.scrollView.frame.size.width, 1110)];
         
         _tableView.delegate=self;
         _tableView.dataSource=self;
@@ -212,12 +306,81 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 
     return _tableView;
 }
+
+
+#pragma mark-----------------CollectionView代理方法------------------------
+
+
+
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+
+
+
+
+    return 1;
+
+
+}
+
+
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+
+    return _weddingDressArray.count;
+
+}
+
+
+-(UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+
+
+
+  ShwanWeddingCell * cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"item" forIndexPath:indexPath];
+
+    
+    cell.backgroundColor=[UIColor whiteColor];
+    
+    cell.layer.borderWidth=1;
+    //cell.layer.borderColor
+    
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    CGColorRef colorref = CGColorCreate(colorSpace,(CGFloat[]){ 0, 0, 0, 0.7 });
+    [cell.layer setBorderColor:colorref];
+    
+    //if (indexPath.section==0) {
+        
+    
+    ShwanModleWeddingdress *modle =_weddingDressArray[indexPath.row];
+    
+    cell.modle=modle;
+    
+        return cell;
+    
+
+}
+
+
+
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CGSizeMake(self.view.frame.size.width/3, 60);
+}
+
+
+
+
+
+
+
+
+
+
 #pragma mark------------------tableView代理方法----------------------------
 
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-
-
+    
+    
 
 
 
@@ -241,6 +404,14 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
     SHwanModle * modle =_modleArray[indexPath.row];
     
     cell.modle=modle;
+    
+    if (indexPath.section==1) {
+        
+      
+        
+        return cell;
+        
+    }
     
     
      return cell;
@@ -281,10 +452,10 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
     
     
     
-    if (indexPath.row==1) {
+    if (indexPath.row==0) {
         
    
-        self.number=@"6";
+        self.number=2;
         
         
         [ShwanHandShare share].number=self.number;
@@ -293,7 +464,103 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
     [self presentViewController:shwan animated:NO completion:nil];
 
 
- }
+    }else if (indexPath.row==1){
+    
+    
+        
+        self.number=6;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+    
+    }else if (indexPath.row==2){
+        
+        
+        
+        self.number=7;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+        
+    }else if (indexPath.row==3){
+        
+        
+        
+        self.number=8;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+        
+    }else if (indexPath.row==4){
+        
+        
+        
+        self.number=9;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+        
+    }else if (indexPath.row==5){
+        
+        
+        
+        self.number=11;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+        
+    }else if (indexPath.row==6){
+        
+        
+        
+        self.number=12;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+        
+    }else if (indexPath.row==7){
+        
+        
+        
+        self.number=6;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+        
+    }else {
+        
+        
+        
+        self.number=6;
+        
+        
+        [ShwanHandShare share].number=self.number;
+        
+        
+        [self presentViewController:shwan animated:NO completion:nil];
+        
+    }
 
 
 }
@@ -324,7 +591,19 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 
 
 #pragma mark-------------------Button点击事件------------------------------
+-(void)control4Action:(UIControl*)sender{
 
+    ShwanWeddingController * wedding =[ShwanWeddingController new];
+    
+    wedding.imageViewArray=_weddingDressArray;
+    wedding.nameArray=_titleArray;
+   
+    NSLog(@"%@",wedding.nameArray);
+
+    [self presentViewController:wedding animated:NO completion:nil];
+
+
+}
 
 -(void)cityBUtton4Action:(UIButton*)sender{
 
@@ -332,7 +611,7 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
   
     [_CityBUtton setImage:[UIImage imageNamed:@"iconfont-shangsanjiao"] forState:UIControlStateNormal];
     
-    
+    [_CityBUtton setTitle:@"1" forState:UIControlStateHighlighted];
     
     ShwanClassificationController * shwanView =[ShwanClassificationController new];
     

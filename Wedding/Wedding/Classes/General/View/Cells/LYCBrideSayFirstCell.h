@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "LYCBrideSayHeadItem.h"
 
 @interface LYCBrideSayFirstCell : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *lab4name;
 @property (weak, nonatomic) IBOutlet UILabel *lab4good_title;
-
+//@property (nonatomic,strong) LYCBrideSayHeadItem * model;
 
 @end

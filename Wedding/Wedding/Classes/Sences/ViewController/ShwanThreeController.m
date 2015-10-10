@@ -7,9 +7,11 @@
 //
 
 #import "ShwanThreeController.h"
-
-@interface ShwanThreeController ()
-
+#import "ShwanHandShare.h"
+#import "ShwanMerchantsCell.h"
+#import "Shwanmerchant.h"
+@interface ShwanThreeController ()<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)UITableView * tableView;
 @end
 
 @implementation ShwanThreeController
@@ -17,23 +19,77 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor=[UIColor yellowColor];
+    
+    
+    _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 60, self.view.frame.size.width, self.view.frame.size.height-60) style:UITableViewStylePlain];
+    
+    
+    _tableView.dataSource=self;
+    
+    _tableView.delegate=self;
+    
+    [self.tableView registerClass:[ShwanMerchantsCell class] forCellReuseIdentifier:@"cell"];
+    
+    [self.view addSubview:_tableView];
+    
+    
+    
+    
+   [[ShwanHandShare share] setWithMerchantNumber:self.Mynumber URL:^{
+       
+       [self.tableView reloadData];
+       
+   }];
+    
+    
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    
+    
+    
+    
+    
+    return 1;
+    
+    
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    
+    return [ShwanHandShare share].merchantArray.count;
+    
 }
-*/
+
+
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    ShwanMerchantsCell * cell =[tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    
+    Shwanmerchant * modle =[ShwanHandShare share].merchantArray[indexPath.row];
+    
+    
+    cell.Modle=modle;
+    
+    return cell;
+    
+    
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    
+    
+    return 100;
+    
+}
 
 @end

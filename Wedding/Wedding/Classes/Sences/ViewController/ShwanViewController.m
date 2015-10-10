@@ -28,7 +28,7 @@
     
     UISegmentedControl*seg=[[UISegmentedControl alloc]initWithItems:@[@"套餐",@"案例",@"商家"]];
     
-    seg.frame=CGRectMake(0, 20, self.view.frame.size.width, 30);
+    seg.frame=CGRectMake(0, 60, self.view.frame.size.width, 30);
     seg.backgroundColor=[UIColor redColor];
     seg.tintColor=[UIColor whiteColor];
     seg.selectedSegmentIndex=1;
@@ -45,10 +45,20 @@
     [self addChildViewController:_twoView];
     [self addChildViewController:_threeView];
     
-    seg.selectedSegmentIndex =1;
+    seg.selectedSegmentIndex =0;
     
     [seg addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:seg];
+    
+   
+    UIButton * button =[[UIButton alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2-20, 20, 40, 40)];
+    
+    [button setTitle:@"返回" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(button4Action:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    
     
     
 }
@@ -73,6 +83,15 @@
     
     
 }
+
+-(void)button4Action:(UIButton*)sender{
+
+
+    [self dismissViewControllerAnimated:NO completion:nil];
+
+
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
