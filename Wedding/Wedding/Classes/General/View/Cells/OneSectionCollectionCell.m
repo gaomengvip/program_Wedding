@@ -14,4 +14,9 @@
     // Initialization code
 }
 
+-(void)setModel:(Model4HomePage *)model
+{
+    [self.picture sd_setImageWithURL:[NSURL URLWithString:model.image_path]];
+}
+
 @end

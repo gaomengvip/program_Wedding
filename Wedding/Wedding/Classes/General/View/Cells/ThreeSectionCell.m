@@ -17,7 +17,20 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
 }
+
+-(void)setModel:(Model4SetMeal *)model{
+    
+    
+    self.txt4kind.text = model.kind;
+    self.txt4title.text = model.title;
+    self.txt4NowPlace.text = [NSString stringWithFormat:@" ¥ %d",(int)model.sale_price];
+    self.txt4FormerPlace.text = [NSString stringWithFormat:@"%d",(int)model.market_price];
+    self.txt4saveMoney.text = [NSString stringWithFormat:@"省%d元",((int)model.market_price - (int)model.sale_price)];
+    [self.picture sd_setImageWithURL:[NSURL URLWithString:model.cover_path]];
+    
+}
+
+
 
 @end

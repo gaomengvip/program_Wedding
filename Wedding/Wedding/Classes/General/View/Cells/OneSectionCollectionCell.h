@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model4HomePage.h"
 
 @interface OneSectionCollectionCell : UICollectionViewCell
 
@@ -15,6 +16,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *txt4SecondTitle;
 
 @property (weak, nonatomic) IBOutlet UIImageView *picture;
+
+@property (nonatomic,strong) Model4HomePage *model;
 
 
 @end

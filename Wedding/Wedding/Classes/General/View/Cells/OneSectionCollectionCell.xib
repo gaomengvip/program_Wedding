@@ -13,20 +13,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fM7-PQ-BPj">
-                        <rect key="frame" x="98" y="5" width="60" height="60"/>
+                        <rect key="frame" x="8" y="5" width="150" height="60"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcc-S0-6yS">
-                        <rect key="frame" x="18" y="8" width="70" height="30"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbO-Nv-dQl">
-                        <rect key="frame" x="20" y="37" width="70" height="25"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                        <color key="textColor" white="0.55962171052631582" alpha="1" colorSpace="calibratedWhite"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
@@ -34,10 +22,8 @@
             <size key="customSize" width="276" height="73"/>
             <connections>
                 <outlet property="picture" destination="fM7-PQ-BPj" id="bGT-cl-oKd"/>
-                <outlet property="txt4MainTitle" destination="kcc-S0-6yS" id="9OR-Cg-ez2"/>
-                <outlet property="txt4SecondTitle" destination="TbO-Nv-dQl" id="cDy-QV-TeG"/>
             </connections>
-            <point key="canvasLocation" x="562.5" y="389"/>
+            <point key="canvasLocation" x="442.5" y="359"/>
         </collectionViewCell>
     </objects>
 </document>

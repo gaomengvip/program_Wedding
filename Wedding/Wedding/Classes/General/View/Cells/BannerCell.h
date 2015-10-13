@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Model4HomePage.h"
 
 @interface BannerCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *picture;
+@property (nonatomic,strong)Model4HomePage *model;
 
 @end

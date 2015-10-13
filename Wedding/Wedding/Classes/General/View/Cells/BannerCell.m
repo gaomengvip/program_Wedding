@@ -20,4 +20,11 @@
     // Configure the view for the selected state
 }
 
+-(void)setModel:(Model4HomePage *)model{
+    [self.picture sd_setImageWithURL:[NSURL URLWithString:model.image_path]];
+}
+
+
+
+
 @end

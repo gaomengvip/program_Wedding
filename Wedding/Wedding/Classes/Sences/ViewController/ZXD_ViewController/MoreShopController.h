@@ -1,13 +1,13 @@
 //
-//  HomePageController.h
+//  MoreShopController.h
 //  Wedding
 //
-//  Created by lanou3g on 15/10/7.
+//  Created by lanou3g on 15/10/12.
 //  Copyright (c) 2015年 蓝鸥科技. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface HomePageController : UITableViewController
+@interface MoreShopController : UIViewController
 
 @end

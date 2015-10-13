@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "HomePageController.h"
 #import "ShwanClassificationController.h"
 #import "LYCBrideSayController.h"
+#import "HomePageViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +23,7 @@
     // Override point for customization after application launch.
     
     
-    UINavigationController *homePaheVC = [[UINavigationController alloc]initWithRootViewController:[HomePageController new]];
+    UINavigationController *homePaheVC = [[UINavigationController alloc]initWithRootViewController:[HomePageViewController new]];
     
     UINavigationController *secondVC = [[UINavigationController alloc]initWithRootViewController:[ShwanClassificationController new]];
     
