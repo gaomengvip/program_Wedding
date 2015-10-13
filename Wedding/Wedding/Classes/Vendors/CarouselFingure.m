@@ -86,6 +86,14 @@
     if (_imagesArray != imagesArray) {
         _imagesArray = [imagesArray mutableCopy];
     }
+    
+    if (_imagesArray != imagesArray) {
+        _imagesArray = [imagesArray mutableCopy];
+  
+
+    }
+
+    
     //=========
     [self drawView];
     self.timer = [NSTimer scheduledTimerWithTimeInterval:self.duration target:self selector:@selector(carouselFromTimer:) userInfo:nil repeats:YES];//便利构造器

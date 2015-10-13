@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void (^Block4Str)(NSString*);
 @interface ShwanClassificationController : UIViewController
+
+
+@property(nonatomic,assign)NSInteger number;
+@property(nonatomic,assign)NSInteger Morenumber;
+@property(nonatomic,copy)Block4Str block;
+
 
 @end

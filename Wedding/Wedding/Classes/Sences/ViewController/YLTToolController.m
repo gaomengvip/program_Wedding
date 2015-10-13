@@ -1,18 +1,18 @@
 //
-//  ViewController6.m
+//  YLTToolController.m
 //  Wedding
 //
-//  Created by lanou3g on 15/10/7.
+//  Created by lanou3g on 15/10/9.
 //  Copyright (c) 2015年 蓝鸥科技. All rights reserved.
 //
 
-#import "ViewController6.h"
+#import "YLTToolController.h"
 
-@interface ViewController6 ()
+@interface YLTToolController ()
 
 @end
 
-@implementation ViewController6
+@implementation YLTToolController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
